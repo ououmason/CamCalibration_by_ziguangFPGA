@@ -1,0 +1,135 @@
+
+N90_8 (GTP_LUT6CARRY)
+     I5
+
+N90_7 (GTP_LUT6CARRY)
+     I5
+
+N2_11 (GTP_LUT6CARRY)
+     I5
+
+N2_10 (GTP_LUT6CARRY)
+     I5
+
+N2_5 (GTP_LUT6CARRY)
+    I5
+
+N2_9 (GTP_LUT6CARRY)
+    I5
+
+N90_9 (GTP_LUT6CARRY)
+     I5
+
+N2_8 (GTP_LUT6CARRY)
+    I5
+
+N2_4 (GTP_LUT6CARRY)
+    I5
+
+N2_6 (GTP_LUT6CARRY)
+    I5
+
+N90_10 (GTP_LUT6CARRY)
+      I5
+
+N90_11 (GTP_LUT6CARRY)
+      I5
+
+N2_7 (GTP_LUT6CARRY)
+    I5
+
+N2_3 (GTP_LUT6CARRY)
+    I5
+
+N2_2 (GTP_LUT6CARRY)
+    I5
+
+N90_2 (GTP_LUT6CARRY)
+     I5
+
+N90_3 (GTP_LUT6CARRY)
+     I5
+
+N90_4 (GTP_LUT6CARRY)
+     I5
+
+N90_5 (GTP_LUT6CARRY)
+     I5
+
+N90_6 (GTP_LUT6CARRY)
+     I5
+
+N336_5.fsub_11 (GTP_LUT6CARRY)
+              I5
+
+N304_5.fsub_11 (GTP_LUT6CARRY)
+              I5
+
+ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM36K_E1 (GTP_DRM36K_E1)
+                                         ADDRA[0]
+                                         ADDRA[1]
+                                         ADDRA[2]
+                                         ADDRA[3]
+                                         ADDRA[4]
+                                         ADDRA_HOLD
+                                         ADDRB[0]
+                                         ADDRB[1]
+                                         ADDRB[2]
+                                         ADDRB[3]
+                                         ADDRB[4]
+                                         ADDRB_HOLD
+                                         BWEB[0]
+                                         BWEB[1]
+                                         BWEB[2]
+                                         BWEB[3]
+                                         CSA[0]
+                                         CSA[1]
+                                         CSA[2]
+                                         CSB[0]
+                                         CSB[1]
+                                         CSB[2]
+                                         DIA[8]
+                                         DIA[17]
+                                         DIA[26]
+                                         DIA[35]
+                                         DIB[0]
+                                         DIB[1]
+                                         DIB[2]
+                                         DIB[3]
+                                         DIB[4]
+                                         DIB[5]
+                                         DIB[6]
+                                         DIB[7]
+                                         DIB[8]
+                                         DIB[9]
+                                         DIB[10]
+                                         DIB[11]
+                                         DIB[12]
+                                         DIB[13]
+                                         DIB[14]
+                                         DIB[15]
+                                         DIB[16]
+                                         DIB[17]
+                                         DIB[18]
+                                         DIB[19]
+                                         DIB[20]
+                                         DIB[21]
+                                         DIB[22]
+                                         DIB[23]
+                                         DIB[24]
+                                         DIB[25]
+                                         DIB[26]
+                                         DIB[27]
+                                         DIB[28]
+                                         DIB[29]
+                                         DIB[30]
+                                         DIB[31]
+                                         DIB[32]
+                                         DIB[33]
+                                         DIB[34]
+                                         DIB[35]
+                                         INJECT_DBITERR
+                                         INJECT_SBITERR
+                                         ORCEA
+                                         ORCEB
+                                         WEB

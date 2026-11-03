@@ -1,0 +1,107 @@
+[
+    {
+        "phase": "place",
+        "table_title": "Place",
+        "title": ["Window", "Direction", "Type", "Level", "Congestion", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "name": ["Window", "Direction", "Type", "Level", "Congestion", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "version": 1,
+        "top_module_name": "HDMI_IN_DDR3_YCbCr_top",
+        "arch": {"family": "Logos2", "device": "PG2L100H", "package": "FBG676", "speedgrade": "-6"},
+        "svn_version": "166183"
+    },
+    {
+        "region": [30, 720, 47, 857],
+        "cell_name": [["correction/engine/TILES[0].tiles", "68%"], ["correction/capture", "22%"], ["correction/engine/TILES[1].tiles", "9%"]],
+        "display": ["window1", "North", "Global", "4", "241.97%", "6.82%", "0.52", "7.95%", "0%", "7.39%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [30, 606, 47, 689],
+        "cell_name": [["correction/engine/TILES[0].tiles", "100%"]],
+        "display": ["window2", "North", "Global", "3", "225.48%", "8.93%", "0.60", "8.93%", "0%", "6.70%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [180, 612, 329, 899],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window3", "North", "Global", "6", "213.91%", "15.45%", "3.79", "65.80%", "46.32%", "59.36%", "100.00%", "95.00%", "8.73%", "NA"]
+    },
+    {
+        "region": [174, 384, 305, 845],
+        "cell_name": [["correction/engine", "50%"], ["correction", "30%"], ["HDMI_IN_DDR3_YCbCr_top", "19%"]],
+        "display": ["window4", "North", "Global", "6", "199.32%", "14.65%", "3.81", "67.30%", "58.37%", "59.10%", "100.00%", "93.33%", "16.82%", "NA"]
+    },
+    {
+        "region": [30, 600, 53, 845],
+        "cell_name": [["correction/engine/TILES[0].tiles", "86%"], ["correction/capture", "9%"]],
+        "display": ["window5", "North", "Global", "4", "184.90%", "7.08%", "0.50", "7.50%", "0%", "6.15%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [216, 318, 305, 1223],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window6", "North", "Global", "6", "177.26%", "10.69%", "3.07", "58.51%", "34.49%", "44.43%", "100.00%", "75.00%", "16.46%", "NA"]
+    },
+    {
+        "region": [30, 246, 53, 299],
+        "cell_name": [["correction/engine/TILES[0].tiles", "71%"], ["correction/engine/TILES[2].tiles", "28%"]],
+        "display": ["window7", "North", "Global", "3", "162.78%", "1.85%", "0.12", "1.85%", "0%", "1.39%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [30, 96, 41, 1067],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window8", "North", "Global", "5", "153.02%", "0.94%", "0.21", "3.69%", "0%", "2.56%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [30, 294, 47, 383],
+        "cell_name": [["correction/engine/TILES[0].tiles", "91%"], ["correction/engine/TILES[2].tiles", "6%"]],
+        "display": ["window9", "South", "Global", "3", "390.98%", "15.00%", "1.05", "15.83%", "0%", "11.25%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [30, 270, 47, 521],
+        "cell_name": [["correction/engine/TILES[0].tiles", "62%"], ["he_stage", "20%"], ["correction", "10%"]],
+        "display": ["window10", "South", "Global", "4", "316.94%", "6.71%", "0.53", "8.23%", "0%", "8.08%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [264, 468, 323, 575],
+        "cell_name": [["correction/engine", "46%"], ["u_ddr3_test_h", "37%"], ["correction/port", "13%"]],
+        "display": ["window11", "South", "Global", "4", "240.43%", "20.24%", "4.06", "74.90%", "32.29%", "67.86%", "100.00%", "100.00%", "18.06%", "NA"]
+    },
+    {
+        "region": [216, 468, 335, 701],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window12", "South", "Global", "5", "201.42%", "17.86%", "4.06", "74.10%", "49.91%", "62.54%", "100.00%", "100.00%", "17.76%", "NA"]
+    },
+    {
+        "region": [30, 192, 47, 749],
+        "cell_name": [["correction/engine/TILES[0].tiles", "72%"], ["HDMI_IN_DDR3_YCbCr_top", "27%"]],
+        "display": ["window13", "South", "Global", "5", "198.16%", "4.89%", "0.37", "5.57%", "0%", "5.03%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [234, 372, 263, 419],
+        "cell_name": [["correction/engine", "66%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl", "33%"]],
+        "display": ["window14", "South", "Global", "3", "162.65%", "8.33%", "3.19", "63.02%", "62.50%", "32.55%", "100.00%", "100.00%", "12.50%", "NA"]
+    },
+    {
+        "region": [240, 168, 263, 689],
+        "cell_name": [["correction/engine", "67%"], ["HDMI_IN_DDR3_YCbCr_top", "32%"]],
+        "display": ["window15", "South", "Global", "5", "155.57%", "12.60%", "2.64", "50.92%", "44.19%", "32.75%", "100.00%", "NA", "17.05%", "NA"]
+    },
+    {
+        "region": [216, 282, 365, 761],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window16", "South", "Global", "6", "139.81%", "12.24%", "3.41", "63.97%", "30.70%", "49.35%", "100.00%", "88.33%", "14.02%", "NA"]
+    },
+    {
+        "region": [324, 672, 377, 869],
+        "cell_name": [["u_ddr3_test_h/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice", "38%"], ["u_ddr3_test_h/u_ddrphy_top/ddrphy_slice_top", "32%"], ["ddr_result_ethernet", "19%"]],
+        "display": ["window17", "South", "Global", "5", "122.59%", "4.43%", "3.64", "68.29%", "0%", "57.55%", "NA", "NA", "5.08%", "NA"]
+    },
+    {
+        "region": [228, 612, 293, 665],
+        "cell_name": [["correction/engine", "72%"], ["ddr_result_ethernet", "23%"]],
+        "display": ["window18", "West", "Global", "4", "127.27%", "22.22%", "3.99", "73.26%", "52.78%", "59.38%", "100.00%", "100.00%", "25.87%", "NA"]
+    },
+    {
+        "region": [264, 510, 305, 533],
+        "cell_name": [["correction/engine", "52%"], ["correction/port", "28%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_ui_axi", "14%"]],
+        "display": ["window19", "East", "Global", "3", "129.71%", "21.25%", "3.98", "75.62%", "33.33%", "69.69%", "100.00%", "100.00%", "26.25%", "NA"]
+    }
+]

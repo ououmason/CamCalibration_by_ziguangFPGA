@@ -1,0 +1,14 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "grid": [
+    121,
+    69
+  ],
+  "maxWidth": 18,
+  "maxHeight": 18,
+  "prefetchBytes": 6903776,
+  "estimatedMBps": 787.47456,
+  "roundingMax": 0.5,
+  "roundingMean": 0.2483962437795636
+}

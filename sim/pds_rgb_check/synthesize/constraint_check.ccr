@@ -1,0 +1,194 @@
+##### Written on 2026/09/26 19:53:43 ################################################
+
+##### INFO ##########################################################################
+
+Current Device:
+    PG2L100H-6FBG676
+
+Top Module:
+    HDMI_IN_DDR3_YCbCr_top
+
+Constraint File(s):
+    D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc
+
+##### SUMMARY #######################################################################
+
+Found 0 error(s), 6 critical warning(s), 53 warning(s), out of 933 constraint(s)
+
+Constraints With Issues(infos):
+********************************************
+
+define_attribute {p:b_in[0]} {PAP_IO_LOC} {L18}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 850)] Port p:b_in[0] has been placed at location L18, whose type is share pin.
+
+define_attribute {p:b_in[2]} {PAP_IO_LOC} {J18}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 840)] Port p:b_in[2] has been placed at location J18, whose type is share pin.
+
+define_attribute {p:b_in[3]} {PAP_IO_LOC} {H18}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 835)] Port p:b_in[3] has been placed at location H18, whose type is share pin.
+
+define_attribute {p:b_in[4]} {PAP_IO_LOC} {L17}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 830)] Port p:b_in[4] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:b_out[0]} {PAP_IO_LOC} {P19}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 52)] Port p:b_out[0] has been placed at location P19, whose type is share pin.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {N18}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 17)] Port p:b_out[5] has been placed at location N18, whose type is share pin.
+
+define_attribute {p:b_out[6]} {PAP_IO_LOC} {R22}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 10)] Port p:b_out[6] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:b_out[7]} {PAP_IO_LOC} {T22}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 3)] Port p:b_out[7] has been placed at location T22, whose type is share pin.
+
+define_attribute {p:de_out} {PAP_IO_LOC} {N19}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 172)] Port p:de_out has been placed at location N19, whose type is share pin.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {J14}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 885)] Port p:g_in[1] has been placed at location J14, whose type is share pin.
+
+define_attribute {p:g_in[2]} {PAP_IO_LOC} {J15}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 880)] Port p:g_in[2] has been placed at location J15, whose type is share pin.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {J16}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 875)] Port p:g_in[3] has been placed at location J16, whose type is share pin.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {K15}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 870)] Port p:g_in[4] has been placed at location K15, whose type is share pin.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {K17}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 865)] Port p:g_in[5] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:g_in[6]} {PAP_IO_LOC} {K16}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 860)] Port p:g_in[6] has been placed at location K16, whose type is share pin.
+
+define_attribute {p:g_in[7]} {PAP_IO_LOC} {L15}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 855)] Port p:g_in[7] has been placed at location L15, whose type is share pin.
+
+define_attribute {p:g_out[0]} {PAP_IO_LOC} {T25}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 108)] Port p:g_out[0] has been placed at location T25, whose type is share pin.
+
+define_attribute {p:g_out[1]} {PAP_IO_LOC} {P25}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 101)] Port p:g_out[1] has been placed at location P25, whose type is share pin.
+
+define_attribute {p:g_out[2]} {PAP_IO_LOC} {R25}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 94)] Port p:g_out[2] has been placed at location R25, whose type is share pin.
+
+define_attribute {p:g_out[3]} {PAP_IO_LOC} {P24}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 87)] Port p:g_out[3] has been placed at location P24, whose type is share pin.
+
+define_attribute {p:g_out[4]} {PAP_IO_LOC} {P23}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 80)] Port p:g_out[4] has been placed at location P23, whose type is share pin.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {N24}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 73)] Port p:g_out[5] has been placed at location N24, whose type is share pin.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {N23}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 66)] Port p:g_out[6] has been placed at location N23, whose type is share pin.
+
+define_attribute {p:hd_scl} {PAP_IO_LOC} {K22}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 972)] Port p:hd_scl has been placed at location K22, whose type is share pin.
+
+define_attribute {p:hd_sda} {PAP_IO_LOC} {K23}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 980)] Port p:hd_sda has been placed at location K23, whose type is share pin.
+
+define_attribute {p:hs_out} {PAP_IO_LOC} {R20}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 180)] Port p:hs_out has been placed at location R20, whose type is share pin.
+
+define_attribute {p:mem_dm[0]} {PAP_IO_LOC} {K6}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 660)] Port p:mem_dm[0] has been placed at location K6, whose type is share pin.
+
+define_attribute {p:mem_dq[10]} {PAP_IO_LOC} {H8}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 380)] Port p:mem_dq[10] has been placed at location H8, whose type is share pin.
+
+define_attribute {p:mem_dq[11]} {PAP_IO_LOC} {D6}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 373)] Port p:mem_dq[11] has been placed at location D6, whose type is share pin.
+
+define_attribute {p:mem_dq[12]} {PAP_IO_LOC} {G8}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 366)] Port p:mem_dq[12] has been placed at location G8, whose type is share pin.
+
+define_attribute {p:mem_dq[13]} {PAP_IO_LOC} {E6}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 359)] Port p:mem_dq[13] has been placed at location E6, whose type is share pin.
+
+define_attribute {p:mem_dq[15]} {PAP_IO_LOC} {G6}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 345)] Port p:mem_dq[15] has been placed at location G6, whose type is share pin.
+
+define_attribute {p:mem_dq[1]} {PAP_IO_LOC} {J6}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 443)] Port p:mem_dq[1] has been placed at location J6, whose type is share pin.
+
+define_attribute {p:mem_dq[3]} {PAP_IO_LOC} {L8}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 429)] Port p:mem_dq[3] has been placed at location L8, whose type is share pin.
+
+define_attribute {p:mem_dq[5]} {PAP_IO_LOC} {K7}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 415)] Port p:mem_dq[5] has been placed at location K7, whose type is share pin.
+
+define_attribute {p:mem_dq[7]} {PAP_IO_LOC} {J5}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 401)] Port p:mem_dq[7] has been placed at location J5, whose type is share pin.
+
+define_attribute {p:mem_dq[8]} {PAP_IO_LOC} {H6}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 394)] Port p:mem_dq[8] has been placed at location H6, whose type is share pin.
+
+define_attribute {p:mem_dqs[0]} {PAP_IO_LOC} {J4}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 583)] Port p:mem_dqs[0] has been placed at location J4, whose type is share pin.
+
+define_attribute {p:mem_dqs[1]} {PAP_IO_LOC} {H7}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 576)] Port p:mem_dqs[1] has been placed at location H7, whose type is share pin.
+
+define_attribute {p:mem_dqs_n[0]} {PAP_IO_LOC} {H4}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 611)] Port p:mem_dqs_n[0] has been placed at location H4, whose type is share pin.
+
+define_attribute {p:mem_dqs_n[1]} {PAP_IO_LOC} {G7}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 604)] Port p:mem_dqs_n[1] has been placed at location G7, whose type is share pin.
+
+define_attribute {p:r_in[0]} {PAP_IO_LOC} {M15}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 930)] Port p:r_in[0] has been placed at location M15, whose type is share pin.
+
+define_attribute {p:r_in[1]} {PAP_IO_LOC} {H19}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 925)] Port p:r_in[1] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:r_in[2]} {PAP_IO_LOC} {J19}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 920)] Port p:r_in[2] has been placed at location J19, whose type is share pin.
+
+define_attribute {p:r_in[3]} {PAP_IO_LOC} {J20}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 915)] Port p:r_in[3] has been placed at location J20, whose type is share pin.
+
+define_attribute {p:r_in[4]} {PAP_IO_LOC} {K20}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 910)] Port p:r_in[4] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:r_out[3]} {PAP_IO_LOC} {L25}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 143)] Port p:r_out[3] has been placed at location L25, whose type is share pin.
+
+define_attribute {p:r_out[5]} {PAP_IO_LOC} {K26}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 129)] Port p:r_out[5] has been placed at location K26, whose type is share pin.
+
+define_attribute {p:r_out[6]} {PAP_IO_LOC} {K25}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 122)] Port p:r_out[6] has been placed at location K25, whose type is share pin.
+
+define_attribute {p:r_out[7]} {PAP_IO_LOC} {P16}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 115)] Port p:r_out[7] has been placed at location P16, whose type is share pin.
+
+define_attribute {p:rstn_out} {PAP_IO_LOC} {G25}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 199)] Port p:rstn_out has been placed at location G25, whose type is share pin.
+
+define_attribute {p:vs_in} {PAP_IO_LOC} {H24}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 956)] Port p:vs_in has been placed at location H24, whose type is share pin.
+
+define_attribute {p:vs_out} {PAP_IO_LOC} {R21}
+    W: ConstraintEditor-4040: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 207)] Port p:vs_out has been placed at location R21, whose type is share pin.
+
+set_clock_groups -name cfg_clk -asynchronous -group [get_clocks {cfg_clk}]
+    C: SDC-2017: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 792)] Nothing implicitly matched 'cfg_clk'.
+    C: SDC-2027: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 792)] One or more clocks can not find in the group '[get_clocks cfg_clk]', command 'set_clock_groups' is ignored.
+
+set_clock_groups -name clk_25M -asynchronous -group [get_clocks {clk_25M}]
+    C: SDC-2017: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 793)] Nothing implicitly matched 'clk_25M'.
+    C: SDC-2027: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 793)] One or more clocks can not find in the group '[get_clocks clk_25M]', command 'set_clock_groups' is ignored.
+
+set_clock_groups -name pix_clk -asynchronous -group [get_clocks {pix_clk}]
+    C: SDC-2017: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 794)] Nothing implicitly matched 'pix_clk'.
+    C: SDC-2027: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc(line number: 794)] One or more clocks can not find in the group '[get_clocks pix_clk]', command 'set_clock_groups' is ignored.
+
+Other Issues(infos):
+********************************************
+

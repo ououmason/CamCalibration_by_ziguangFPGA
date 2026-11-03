@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <general_container id="compile_settings">
+        <table_container>
+            <table id="compile_settings" title="Compile Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PG2L100H-6FBG676</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>eth_pkt_fifo</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Verilog</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Verilog Standard</data>
+                        <data>Verilog_2001</data>
+                    </row>
+                    <row>
+                        <data>Allow Duplicate Modules</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Multiple File Compilation Unit</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Beta Features for Verilog</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Loop Limit</data>
+                        <data>2000</data>
+                    </row>
+                    <row>
+                        <data>Include Path Order: 
+ (Relative to Verilog File)</data>
+                        <data>D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rev_1	</data>
+                    </row>
+                    <row>
+                        <data>Parameters/Generics</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Compiler Directives</data>
+                        <data></data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>VHDL (Beta)</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>VHDL Standard</data>
+                        <data>VHDL_93</data>
+                    </row>
+                    <row>
+                        <data>Default Enum Encoding</data>
+                        <data>default</data>
+                    </row>
+                    <row>
+                        <data>Implicit Initial Value Support</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Beta Features for VHDL</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Loop Limit</data>
+                        <data>2000</data>
+                    </row>
+                    <row>
+                        <data>Parameters/Generics</data>
+                        <data></data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Options</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>FSM Compiler</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Pre-Compile Tcl</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Post-Compile Tcl</data>
+                        <data></data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+    <table id="compile_source_files" title="Design Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_v1_13_eth_pkt_fifo.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/eth_pkt_fifo.v</data>
+            <data>Verilog</data>
+        </row>
+    </table>
+    <table id="compile_runtime" title="Compile Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:5s</data>
+            <data>145</data>
+            <data>WINDOWS 11 x86_64</data>
+            <data>Unknown</data>
+            <data>32</data>
+        </row>
+    </table>
+    <table id="report_end" title="Report Ended" column_number="0">
+        <column_headers/>
+    </table>
+    <table id="compile_messages" title="Compile Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">Enable Verilog2k features and keywords</data>
+        </row>
+        <row>
+            <data message="4">Include path: D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rev_1</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v(line number: 18)] Analyzing module ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo (library work)</data>
+        </row>
+        <row>
+            <data message="4">[D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v(line number: 46)] Convert attribute name from syn_preserve to PAP_PRESERVE</data>
+        </row>
+        <row>
+            <data message="4">[D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v(line number: 48)] Convert attribute name from syn_preserve to PAP_PRESERVE</data>
+        </row>
+        <row>
+            <data message="4">[D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v(line number: 59)] Convert attribute name from syn_preserve to PAP_PRESERVE</data>
+        </row>
+        <row>
+            <data message="4">[D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v(line number: 61)] Convert attribute name from syn_preserve to PAP_PRESERVE</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 18)] Analyzing module ipm2l_sdpram_v1_13_eth_pkt_fifo (library work)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2057: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 928)] inject_sbiterr is declared implicitly.</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2057: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 929)] inject_dbiterr is declared implicitly.</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2064: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 356)] Within an initial construct, statements that not supported for synthesis will be ignored. Simulation mismatch may occur</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_v1_13_eth_pkt_fifo.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_v1_13_eth_pkt_fifo.v(line number: 19)] Analyzing module ipm2l_fifo_v1_13_eth_pkt_fifo (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/eth_pkt_fifo.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/eth_pkt_fifo.v(line number: 16)] Analyzing module eth_pkt_fifo (library work)</data>
+        </row>
+        <row>
+            <data message="4">Module &quot;eth_pkt_fifo&quot; is set as top module.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/eth_pkt_fifo.v(line number: 16)] Elaborating module eth_pkt_fifo</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/eth_pkt_fifo.v(line number: 194)] Elaborating instance U_ipm2l_fifo_eth_pkt_fifo</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_v1_13_eth_pkt_fifo.v(line number: 19)] Elaborating module ipm2l_fifo_v1_13_eth_pkt_fifo</data>
+        </row>
+        <row>
+            <data message="4">Module instance {eth_pkt_fifo/U_ipm2l_fifo_eth_pkt_fifo} parameter value:
+    c_CAS_MODE = 36K
+    c_WR_DEPTH_WIDTH = 32'b00000000000000000000000000001010 (32'd10)
+    c_WR_DATA_WIDTH = 32'b00000000000000000000000000100000 (32'd32)
+    c_RD_DEPTH_WIDTH = 32'b00000000000000000000000000001010 (32'd10)
+    c_RD_DATA_WIDTH = 32'b00000000000000000000000000100000 (32'd32)
+    c_OUTPUT_REG = 32'b00000000000000000000000000000000 (32'd0)
+    c_RD_OCE_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_FAB_REG = 32'b00000000000000000000000000000000 (32'd0)
+    c_RESET_TYPE = ASYNC
+    c_POWER_OPT = 32'b00000000000000000000000000000000 (32'd0)
+    c_RD_CLK_OR_POL_INV = 32'b00000000000000000000000000000000 (32'd0)
+    c_WR_BYTE_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_BE_WIDTH = 32'b00000000000000000000000000000001 (32'd1)
+    c_FIFO_TYPE = ASYN
+    c_ALMOST_FULL_NUM = 32'b00000000000000000000001111111100 (32'd1020)
+    c_S_BIT_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_D_BIT_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_ECC_WREN = 32'b00000000000000000000000000000000 (32'd0)
+    c_ECC_RDEN = 32'b00000000000000000000000000000000 (32'd0)
+    c_ALMOST_EMPTY_NUM = 32'b00000000000000000000000000000100 (32'd4)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_v1_13_eth_pkt_fifo.v(line number: 92)] Elaborating instance U_ipm2l_sdpram</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 18)] Elaborating module ipm2l_sdpram_v1_13_eth_pkt_fifo</data>
+        </row>
+        <row>
+            <data message="4">Module instance {eth_pkt_fifo/U_ipm2l_fifo_eth_pkt_fifo/U_ipm2l_sdpram} parameter value:
+    c_CAS_MODE = 36K
+    c_WR_ADDR_WIDTH = 32'b00000000000000000000000000001010 (32'd10)
+    c_WR_DATA_WIDTH = 32'b00000000000000000000000000100000 (32'd32)
+    c_RD_ADDR_WIDTH = 32'b00000000000000000000000000001010 (32'd10)
+    c_RD_DATA_WIDTH = 32'b00000000000000000000000000100000 (32'd32)
+    c_WR_ADDR_STROBE_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_WR_CLK_EN = 32'b00000000000000000000000000000001 (32'd1)
+    c_OUTPUT_REG = 32'b00000000000000000000000000000000 (32'd0)
+    c_RD_OCE_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_FAB_REG = 32'b00000000000000000000000000000000 (32'd0)
+    c_RD_ADDR_STROBE_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_RD_CLK_EN = 32'b00000000000000000000000000000001 (32'd1)
+    c_RESET_TYPE = ASYNC
+    c_RD_CLK_OR_POL_INV = 32'b00000000000000000000000000000000 (32'd0)
+    c_POWER_OPT = 32'b00000000000000000000000000000000 (32'd0)
+    c_INIT_FILE = NONE
+    c_INIT_FORMAT = BIN
+    c_WR_BYTE_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_BE_WIDTH = 32'b00000000000000000000000000000001 (32'd1)
+    c_S_BIT_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_D_BIT_EN = 32'b00000000000000000000000000000000 (32'd0)
+    c_ECC_WREN = 32'b00000000000000000000000000000000 (32'd0)
+    c_ECC_RDEN = 32'b00000000000000000000000000000000 (32'd0)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2039: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 543)] Repeat multiplier in concatenation evaluates to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2039: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 544)] Repeat multiplier in concatenation evaluates to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 565)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 566)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 567)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 568)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 568)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 569)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 569)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 570)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2039: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 697)] Repeat multiplier in concatenation evaluates to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 714)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 715)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 716)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 717)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 717)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 718)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 718)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2038: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 719)] Case condition never applies</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 900)] Elaborating instance U_GTP_DRM36K_E1</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2036: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 900)] The net ADDR_LOOP[0].DATA_LOOP[0].inject_sbiterr that drives an input pin of module instance eth_pkt_fifo/U_ipm2l_fifo_eth_pkt_fifo/U_ipm2l_sdpram.ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM36K_E1 has no driver, tie the net to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2036: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 900)] The net ADDR_LOOP[0].DATA_LOOP[0].inject_dbiterr that drives an input pin of module instance eth_pkt_fifo/U_ipm2l_fifo_eth_pkt_fifo/U_ipm2l_sdpram.ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM36K_E1 has no driver, tie the net to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 806)] Net DA_bus[8] in ipm2l_sdpram_v1_13_eth_pkt_fifo(original module ipm2l_sdpram_v1_13_eth_pkt_fifo) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 806)] Net DA_bus[17] in ipm2l_sdpram_v1_13_eth_pkt_fifo(original module ipm2l_sdpram_v1_13_eth_pkt_fifo) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 806)] Net DA_bus[26] in ipm2l_sdpram_v1_13_eth_pkt_fifo(original module ipm2l_sdpram_v1_13_eth_pkt_fifo) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 806)] Net DA_bus[35] in ipm2l_sdpram_v1_13_eth_pkt_fifo(original module ipm2l_sdpram_v1_13_eth_pkt_fifo) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 807)] Net DB_bus[8] in ipm2l_sdpram_v1_13_eth_pkt_fifo(original module ipm2l_sdpram_v1_13_eth_pkt_fifo) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 807)] Net DB_bus[17] in ipm2l_sdpram_v1_13_eth_pkt_fifo(original module ipm2l_sdpram_v1_13_eth_pkt_fifo) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 807)] Net DB_bus[26] in ipm2l_sdpram_v1_13_eth_pkt_fifo(original module ipm2l_sdpram_v1_13_eth_pkt_fifo) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2020: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_sdpram_v1_13_eth_pkt_fifo.v(line number: 807)] Net DB_bus[35] in ipm2l_sdpram_v1_13_eth_pkt_fifo(original module ipm2l_sdpram_v1_13_eth_pkt_fifo) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_v1_13_eth_pkt_fifo.v(line number: 119)] Elaborating instance U_ipm2l_fifo_ctrl</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v(line number: 18)] Elaborating module ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo</data>
+        </row>
+        <row>
+            <data message="4">Module instance {eth_pkt_fifo/U_ipm2l_fifo_eth_pkt_fifo/U_ipm2l_fifo_ctrl} parameter value:
+    c_WR_DEPTH_WIDTH = 32'b00000000000000000000000000001010 (32'd10)
+    c_RD_DEPTH_WIDTH = 32'b00000000000000000000000000001010 (32'd10)
+    c_FIFO_TYPE = ASYN
+    c_ALMOST_FULL_NUM = 32'b00000000000000000000001111111100 (32'd1020)
+    c_ALMOST_EMPTY_NUM = 32'b00000000000000000000000000000100 (32'd4)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2039: [D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT/ipcore/eth_pkt_fifo/rtl/ipm2l_fifo_ctrl_v1_1_eth_pkt_fifo.v(line number: 195)] Repeat multiplier in concatenation evaluates to 0</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N95_10 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N85 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N31 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N37 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N43 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N49 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N55 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N61 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N67 (bmsREDXOR).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N73 (bmsREDXOR).</data>
+        </row>
+    </table>
+</tables>

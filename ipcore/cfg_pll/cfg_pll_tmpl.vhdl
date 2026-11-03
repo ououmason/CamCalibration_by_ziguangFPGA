@@ -1,0 +1,23 @@
+-- Created by IP Generator (Version 2023.2-SP4 build 166183)
+-- Instantiation Template
+--
+-- Insert the following codes into your VHDL file.
+--   * Change the_instance_name to your own instance name.
+--   * Change the net names in the port map.
+
+
+COMPONENT cfg_pll
+  PORT (
+    clkout0 : OUT STD_LOGIC;
+    lock : OUT STD_LOGIC;
+    clkin1 : IN STD_LOGIC
+  );
+END COMPONENT;
+
+
+the_instance_name : cfg_pll
+  PORT MAP (
+    clkout0 => clkout0,
+    lock => lock,
+    clkin1 => clkin1
+  );

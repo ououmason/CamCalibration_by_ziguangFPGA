@@ -1,0 +1,55 @@
+# do sim/full_system.do
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work sim/work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:46:38 on Sep 09,2026
+# vlog source/undistort/ud_async_fifo.v source/undistort/ud_capture.v source/undistort/ud_coord.v source/undistort/ud_ddr_port.v source/undistort/ud_engine.v source/undistort/ud_reset.v source/undistort/ud_system.v source/undistort/ud_tile_ram.v source/undistort/ud_video_out.v 
+# -- Compiling module ud_async_fifo
+# -- Compiling module ud_capture
+# -- Compiling module ud_coord
+# -- Compiling module ud_bilinear
+# -- Compiling module ud_ddr_port
+# -- Compiling module ud_engine
+# -- Compiling module ud_reset
+# -- Compiling module ud_system
+# -- Compiling module ud_tile_ram
+# -- Compiling module ud_video_out
+# 
+# Top level modules:
+# 	ud_system
+# End time: 21:46:38 on Sep 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:46:38 on Sep 09,2026
+# vlog -sv "+define+FULL" sim/tb_system.sv 
+# -- Compiling module tb_system
+# 
+# Top level modules:
+# 	tb_system
+# End time: 21:46:38 on Sep 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_system 
+# Start time: 21:46:38 on Sep 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_system(fast)
+# Loading work.ud_system(fast)
+# PASS system:           2 intact nonblack display frames,      453600 DDR writes, drops=         0
+# ** Note: $finish    : sim/tb_system.sv(110)
+#    Time: 66686527984 ps  Iteration: 1  Instance: /tb_system
+# End time: 21:47:55 on Sep 09,2026, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0

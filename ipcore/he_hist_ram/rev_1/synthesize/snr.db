@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <general_container id="synthesize_settings">
+        <table_container>
+            <table id="synthesize_settings" title="Synthesize Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PG2L100H-6FBG676</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>he_hist_ram</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Option</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Fanout Guide</data>
+                        <data>10000</data>
+                    </row>
+                    <row>
+                        <data>Disable I/O Insertion</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Enable Advanced LUT Combining</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Automatic Read/Write Check Insertion for RAM</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>FSM Encoding</data>
+                        <data>auto</data>
+                    </row>
+                    <row>
+                        <data>Resource Sharing</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Pipelining</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Retiming</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Minimum Control-set Size</data>
+                        <data>2</data>
+                    </row>
+                    <row>
+                        <data>Pre-Synthesize Tcl</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Post-Synthesize Tcl</data>
+                        <data></data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Constraints</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Frequency (MHz)</data>
+                        <data>1</data>
+                    </row>
+                    <row>
+                        <data>Use Clock Period for Unconstrained IO</data>
+                        <data>false</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Timing Report</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Total Number of Paths (-max_path)</data>
+                        <data>3</data>
+                    </row>
+                    <row>
+                        <data>Number of Paths per Endpoint (-nworst)</data>
+                        <data>1</data>
+                    </row>
+                    <row>
+                        <data>Number of Carry as One Logic Level</data>
+                        <data>4</data>
+                    </row>
+                    <row>
+                        <data>Report Logic Level Distribution</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Max Path of Per Logic Level</data>
+                        <data>100</data>
+                    </row>
+                    <row>
+                        <data>Report Exception</data>
+                        <data>true</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+    <table id="synthesize_resource_utilization" title="Resource Utilization By Entity" column_number="30" tree="">
+        <column_headers>
+            <data>Module Inst Name</data>
+            <data>LUT</data>
+            <data>FF</data>
+            <data>Distributed RAM</data>
+            <data>APM</data>
+            <data>DRM</data>
+            <data>ADC</data>
+            <data>ANALOG</data>
+            <data>CCS</data>
+            <data>DDRPHY_CPD</data>
+            <data>DDRPHY_IOCLK_DIV</data>
+            <data>DDR_PHY</data>
+            <data>GCLK_INBUF_SYN</data>
+            <data>GPLL</data>
+            <data>HCKB</data>
+            <data>HSSTLP</data>
+            <data>IO</data>
+            <data>IOCKB</data>
+            <data>KEYRAM</data>
+            <data>LUT CARRY</data>
+            <data>LUT6 MUX</data>
+            <data>LUT7 MUX</data>
+            <data>LUT8 MUX</data>
+            <data>MRCKB</data>
+            <data>PCIE</data>
+            <data>PPLL</data>
+            <data>RCKB</data>
+            <data>RESCAL</data>
+            <data>SCANCHAIN</data>
+            <data>USCM</data>
+        </column_headers>
+        <row>
+            <data>he_hist_ram</data>
+            <data>162</data>
+            <data>32</data>
+            <data>128</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>1</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>84</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <data>0</data>
+            <row>
+                <data>u_ipm_distributed_sdpram_he_hist_ram(ipm_distributed_sdpram_v1_3_he_hist_ram)</data>
+                <data>162</data>
+                <data>32</data>
+                <data>128</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+        </row>
+    </table>
+    <table id="synthesize_check_timing_summary" title="Check Timing Summary" column_number="2">
+        <column_headers>
+            <data>Check</data>
+            <data>Number of Issues</data>
+        </column_headers>
+        <row>
+            <data>no_clock</data>
+            <data>0</data>
+            <table_container>
+                <table id="no_clock_detailed_report" title="no_clock" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 clock pins with no clock driven</data>
+                    </row>
+                    <row>
+                        <data>There are 0 nodes without an associated clock assignment.</data>
+                    </row>
+                    <row>
+                        <data>There are 0 ports with an input/output delay that no clock specified.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>virtual_clock</data>
+            <data>1</data>
+            <table_container>
+                <table id="virtual_clock_detailed_report" title="virtual_clock" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>No virtual clock was found.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>unexpandable_clocks</data>
+            <data>0</data>
+            <table_container>
+                <table id="unexpandable_clocks_detailed_report" title="unexpandable_clocks" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 clock sets in which the period is not expandable.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>no_input_delay</data>
+            <data>50</data>
+            <table_container>
+                <table id="no_input_delay_detailed_report" title="no_input_delay" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 50 input ports with no input delay specified.</data>
+                        <row>
+                            <data>rd_addr[0]</data>
+                        </row>
+                        <row>
+                            <data>rd_addr[1]</data>
+                        </row>
+                        <row>
+                            <data>rd_addr[2]</data>
+                        </row>
+                        <row>
+                            <data>rd_addr[3]</data>
+                        </row>
+                        <row>
+                            <data>rd_addr[4]</data>
+                        </row>
+                        <row>
+                            <data>rd_addr[5]</data>
+                        </row>
+                        <row>
+                            <data>rd_addr[6]</data>
+                        </row>
+                        <row>
+                            <data>rd_addr[7]</data>
+                        </row>
+                        <row>
+                            <data>rst</data>
+                        </row>
+                        <row>
+                            <data>wr_addr[0]</data>
+                        </row>
+                        <row>
+                            <data>wr_addr[1]</data>
+                        </row>
+                        <row>
+                            <data>wr_addr[2]</data>
+                        </row>
+                        <row>
+                            <data>wr_addr[3]</data>
+                        </row>
+                        <row>
+                            <data>wr_addr[4]</data>
+                        </row>
+                        <row>
+                            <data>wr_addr[5]</data>
+                        </row>
+                        <row>
+                            <data>wr_addr[6]</data>
+                        </row>
+                        <row>
+                            <data>wr_addr[7]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[0]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[1]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[2]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[3]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[4]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[5]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[6]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[7]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[8]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[9]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[10]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[11]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[12]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[13]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[14]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[15]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[16]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[17]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[18]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[19]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[20]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[21]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[22]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[23]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[24]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[25]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[26]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[27]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[28]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[29]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[30]</data>
+                        </row>
+                        <row>
+                            <data>wr_data[31]</data>
+                        </row>
+                        <row>
+                            <data>wr_en</data>
+                        </row>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>no_output_delay</data>
+            <data>32</data>
+            <table_container>
+                <table id="no_output_delay_detailed_report" title="no_output_delay" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 32 output ports with no output delay specified.</data>
+                        <row>
+                            <data>rd_data[0]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[1]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[2]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[3]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[4]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[5]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[6]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[7]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[8]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[9]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[10]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[11]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[12]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[13]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[14]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[15]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[16]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[17]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[18]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[19]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[20]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[21]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[22]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[23]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[24]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[25]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[26]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[27]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[28]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[29]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[30]</data>
+                        </row>
+                        <row>
+                            <data>rd_data[31]</data>
+                        </row>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>partial_input_delay</data>
+            <data>0</data>
+            <table_container>
+                <table id="partial_input_delay_detailed_report" title="partial_input_delay" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 input ports with partial input delay specified.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>partial_output_delay</data>
+            <data>0</data>
+            <table_container>
+                <table id="partial_output_delay_detailed_report" title="partial_output_delay" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 output ports with partial output delay specified.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>io_min_max_delay_consistency</data>
+            <data>0</data>
+            <table_container>
+                <table id="io_min_max_delay_consistency_detailed_report" title="io_min_max_delay_consistency" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 io delay sets that min delay values are not less than max delay values.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>input_delay_assigned_to_clock</data>
+            <data>0</data>
+            <table_container>
+                <table id="input_delay_assigned_to_clock_detailed_report" title="input_delay_assigned_to_clock" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 input delays set on clock ports.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>loops</data>
+            <data>0</data>
+            <table_container>
+                <table id="loops_detailed_report" title="loops" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 combinational loops in the design.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>latch_loops</data>
+            <data>0</data>
+            <table_container>
+                <table id="latch loops_detailed_report" title="latch_loops" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 latch loops in the design.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+        <row>
+            <data>latchs</data>
+            <data>0</data>
+            <table_container>
+                <table id="latchs_detailed_report" title="latchs" column_number="1" tree="">
+                    <column_headers>
+                        <data>Issues</data>
+                    </column_headers>
+                    <row>
+                        <data>There are 0 latchs in the design.</data>
+                    </row>
+                </table>
+            </table_container>
+        </row>
+    </table>
+    <table id="synthesize_report_timing_clock_summary" title="Clock Summary" column_number="10" tree="">
+        <column_headers>
+            <data>Clock Name</data>
+            <data>Type</data>
+            <data>Period</data>
+            <data>Frequency</data>
+            <data>Rise</data>
+            <data>Fall</data>
+            <data>Clock Load</data>
+            <data>Non-clock Load</data>
+            <data>Source</data>
+            <data>Targets</data>
+        </column_headers>
+        <row>
+            <data>he_hist_ram|rd_clk</data>
+            <data>Declared</data>
+            <data>1000.0000</data>
+            <data>1.0000MHz</data>
+            <data>0.0000</data>
+            <data>500.0000</data>
+            <data>32</data>
+            <data>0</data>
+            <data/>
+            <data>{ rd_clk }</data>
+        </row>
+        <row>
+            <data>he_hist_ram|wr_clk</data>
+            <data>Declared</data>
+            <data>1000.0000</data>
+            <data>1.0000MHz</data>
+            <data>0.0000</data>
+            <data>500.0000</data>
+            <data>44</data>
+            <data>0</data>
+            <data/>
+            <data>{ wr_clk }</data>
+        </row>
+    </table>
+    <table id="synthesize_report_clock_interaction" title="Clock Interaction" column_number="12">
+        <column_headers>
+            <data>Launch Clock</data>
+            <data>Capture Clock</data>
+            <data>Common Primary Clock</data>
+            <data>Inter-Clock Constrains</data>
+            <data>WNS(ns)</data>
+            <data>TNS(ns)</data>
+            <data>Failing End Point(TNS)</data>
+            <data>Total End Point(TNS)</data>
+            <data>WHS(ns)</data>
+            <data>THS(ns)</data>
+            <data>Failing End Point(THS)</data>
+            <data>Total End Point(THS)</data>
+        </column_headers>
+        <row>
+            <data>he_hist_ram|wr_clk</data>
+            <data>he_hist_ram|rd_clk</data>
+            <data>NO</data>
+            <data>Asynchronous Groups</data>
+            <data/>
+            <data/>
+            <data/>
+            <data>32</data>
+            <data/>
+            <data/>
+            <data/>
+            <data>32</data>
+        </row>
+    </table>
+    <table id="synthesize_report_clock_network" title="Clock Network" column_number="1" tree="">
+        <column_headers/>
+        <row>
+            <data>he_hist_ram|rd_clk (1.00MHZ) (drive 32 loads) (min_rise, max_rise, min_fall, max_fall)</data>
+            <row>
+                <data file_id="../../he_hist_ram.v" line_number="49">rd_clk (0.000, 0.000, 0.000, 0.000)</data>
+                <row>
+                    <data file_id="../../he_hist_ram.v" line_number="49">rd_clk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
+                    <row>
+                        <data file_id="../../he_hist_ram.v" line_number="49">rd_clk_ibuf/O (0.960, 0.960, 0.861, 0.861)</data>
+                        <row>
+                            <data file_id="../../he_hist_ram.v" line_number="49">nt_rd_clk (net)</data>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[0]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[1]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[2]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[3]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[4]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[5]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[6]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[7]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[8]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[9]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[10]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[11]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[12]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[13]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[14]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[15]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[16]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[17]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[18]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[19]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[20]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[21]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[22]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[23]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[24]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[25]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[26]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[27]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[28]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[29]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[30]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[31]/CLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                        </row>
+                    </row>
+                </row>
+            </row>
+        </row>
+        <row>
+            <data>he_hist_ram|wr_clk (1.00MHZ) (drive 44 loads) (min_rise, max_rise, min_fall, max_fall)</data>
+            <row>
+                <data file_id="../../he_hist_ram.v" line_number="48">wr_clk (0.000, 0.000, 0.000, 0.000)</data>
+                <row>
+                    <data file_id="../../he_hist_ram.v" line_number="48">wr_clk_ibuf/I (0.000, 0.000, 0.000, 0.000)</data>
+                    <row>
+                        <data file_id="../../he_hist_ram.v" line_number="48">wr_clk_ibuf/O (0.960, 0.960, 0.861, 0.861)</data>
+                        <row>
+                            <data file_id="../../he_hist_ram.v" line_number="48">nt_wr_clk (net)</data>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_0_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_3_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_6_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_9_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_12_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_15_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_18_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_21_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_24_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_27_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_30_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_0_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_3_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_6_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_9_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_12_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_15_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_18_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_21_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_24_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_27_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_1_30_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_0_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_3_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_6_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_9_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_12_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_15_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_18_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_21_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_24_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_27_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_2_30_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_0_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_3_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_6_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_9_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_12_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_15_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_18_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_21_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_24_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_27_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                            <row>
+                                <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_3_30_x1x4/WCLK (3.380, 3.380, 3.281, 3.281)</data>
+                            </row>
+                        </row>
+                    </row>
+                </row>
+            </row>
+        </row>
+    </table>
+    <table id="synthesize_report_timing_mpw" title="Minimum Pulse Width Summary" column_number="5">
+        <column_headers>
+            <data>Clock</data>
+            <data>WPWS</data>
+            <data>TPWS</data>
+            <data>Failing End Point</data>
+            <data>Total End Point</data>
+        </column_headers>
+        <row>
+            <data>he_hist_ram|rd_clk</data>
+            <data>499.800</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>32</data>
+        </row>
+        <row>
+            <data>he_hist_ram|wr_clk</data>
+            <data>499.800</data>
+            <data>0.000</data>
+            <data>0</data>
+            <data>44</data>
+        </row>
+    </table>
+    <table id="synthesize_report_timing_path_mpw" title="Minimum Pulse Width Path Summary" column_number="7">
+        <column_headers>
+            <data>Slack</data>
+            <data>Actual Width</data>
+            <data>Require Width</data>
+            <data>Clock</data>
+            <data>Type</data>
+            <data>Location</data>
+            <data>Pin</data>
+        </column_headers>
+        <row>
+            <data>499.800</data>
+            <data>500.000</data>
+            <data>0.200</data>
+            <data>he_hist_ram|rd_clk</data>
+            <data>High Pulse Width</data>
+            <data></data>
+            <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[0]/CLK</data>
+        </row>
+        <row>
+            <data>499.800</data>
+            <data>500.000</data>
+            <data>0.200</data>
+            <data>he_hist_ram|rd_clk</data>
+            <data>Low Pulse Width</data>
+            <data></data>
+            <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[0]/CLK</data>
+        </row>
+        <row>
+            <data>499.800</data>
+            <data>500.000</data>
+            <data>0.200</data>
+            <data>he_hist_ram|rd_clk</data>
+            <data>Low Pulse Width</data>
+            <data></data>
+            <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="86">u_ipm_distributed_sdpram_he_hist_ram/genblk2.q_reg[1]/CLK</data>
+        </row>
+        <row>
+            <data>499.800</data>
+            <data>500.000</data>
+            <data>0.200</data>
+            <data>he_hist_ram|wr_clk</data>
+            <data>High Pulse Width</data>
+            <data></data>
+            <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_0_x1x4/WCLK</data>
+        </row>
+        <row>
+            <data>499.800</data>
+            <data>500.000</data>
+            <data>0.200</data>
+            <data>he_hist_ram|wr_clk</data>
+            <data>Low Pulse Width</data>
+            <data></data>
+            <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_0_x1x4/WCLK</data>
+        </row>
+        <row>
+            <data>499.800</data>
+            <data>500.000</data>
+            <data>0.200</data>
+            <data>he_hist_ram|wr_clk</data>
+            <data>High Pulse Width</data>
+            <data></data>
+            <data file_id="../../rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v" line_number="78">u_ipm_distributed_sdpram_he_hist_ram/mem_0_3_x1x4/WCLK</data>
+        </row>
+    </table>
+    <table id="synthesize_resource_usage" title="GTP Usage" column_number="2">
+        <column_headers>
+            <data>GTP Name</data>
+            <data>Usage</data>
+        </column_headers>
+        <comment>
+            <data>
+Total LUTs: 162 of 66600 (0.24%)
+	LUTs as dram: 128 of 19900 (0.64%)
+	LUTs as logic: 34
+Total Registers: 32 of 133200 (0.02%)
+Total Latches: 0
+
+DRM36K/FIFO:
+Total DRMs = 0.0 of 155 (0.00%)
+
+APMs:
+Total APMs = 0.00 of 240 (0.00%)
+
+Total I/O ports = 84 of 300 (28.00%)
+</data>
+        </comment>
+        <row>
+            <data>GTP_DFF_C                   </data>
+            <data>32</data>
+        </row>
+        <row>
+            <data>GTP_GRS                      </data>
+            <data>1</data>
+        </row>
+        <row>
+            <data>GTP_LUT6                    </data>
+            <data>32</data>
+        </row>
+        <row>
+            <data>GTP_LUT6D                    </data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>GTP_RAM64X1X4               </data>
+            <data>44</data>
+        </row>
+        <row>
+            <data>GTP_INBUF                 </data>
+            <data>52</data>
+        </row>
+        <row>
+            <data>GTP_OUTBUF                </data>
+            <data>32</data>
+        </row>
+    </table>
+    <table id="synthesize_runtime" title="Synthesize Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:1s</data>
+            <data>0h:0m:1s</data>
+            <data>0h:0m:4s</data>
+            <data>156</data>
+            <data>WINDOWS 11 x86_64</data>
+            <data>Unknown</data>
+            <data>32</data>
+        </row>
+    </table>
+    <table id="report_end" title="Report Ended" column_number="0">
+        <column_headers/>
+    </table>
+    <table id="synthesize_messages" title="Synthesize Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="6">SDC-2025: Clock source 'n:rd_clk' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
+        </row>
+        <row>
+            <data message="4">Infer clock: create_clock -name {he_hist_ram|rd_clk} [ get_ports {rd_clk} ] -period {1000.000} -waveform {0.000 500.000} -add.</data>
+        </row>
+        <row>
+            <data message="4">Infer clock: set_clock_groups -name {Inferred_clock_group_0} -asynchronous -group {he_hist_ram|rd_clk}.</data>
+        </row>
+        <row>
+            <data message="6">SDC-2025: Clock source 'n:wr_clk' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
+        </row>
+        <row>
+            <data message="4">Infer clock: create_clock -name {he_hist_ram|wr_clk} [ get_ports {wr_clk} ] -period {1000.000} -waveform {0.000 500.000} -add.</data>
+        </row>
+        <row>
+            <data message="4">Infer clock: set_clock_groups -name {Inferred_clock_group_1} -asynchronous -group {he_hist_ram|wr_clk}.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on u_ipm_distributed_sdpram_he_hist_ram/mem_0_0_we (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on u_ipm_distributed_sdpram_he_hist_ram/mem_2_0_we (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on u_ipm_distributed_sdpram_he_hist_ram/mem_3_0_we (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on u_ipm_distributed_sdpram_he_hist_ram/mem_1_0_we (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[0]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[1]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[2]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[3]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[4]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[5]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[6]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[7]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[8]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[9]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[10]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[11]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[12]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[13]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[14]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[15]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[16]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[17]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[18]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[19]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[20]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[21]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[22]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[23]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[24]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[25]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[26]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[27]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[28]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[29]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[30]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4087: Port 'rd_data[31]' is not constrained, it is treated as combinational output.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rd_addr[0]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rd_addr[1]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rd_addr[2]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rd_addr[3]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rd_addr[4]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rd_addr[5]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rd_addr[6]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rd_addr[7]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'rst' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_addr[0]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_addr[1]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_addr[2]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_addr[3]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_addr[4]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_addr[5]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_addr[6]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_addr[7]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[0]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[1]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[2]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[3]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[4]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[5]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[6]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[7]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[8]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[9]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[10]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[11]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[12]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[13]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[14]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[15]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[16]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[17]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[18]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[19]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[20]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[21]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[22]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[23]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[24]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[25]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[26]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[27]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[28]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[29]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[30]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_data[31]' is not constrained, it is treated as combinational input.</data>
+        </row>
+        <row>
+            <data message="5">Timing-4086: Port 'wr_en' is not constrained, it is treated as combinational input.</data>
+        </row>
+    </table>
+</tables>

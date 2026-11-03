@@ -1,0 +1,87 @@
+[
+    {
+        "phase": "place",
+        "table_title": "Place",
+        "title": ["Window", "Direction", "Type", "Level", "Congestion", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "name": ["Window", "Direction", "Type", "Level", "Congestion", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "version": 1,
+        "top_module_name": "HDMI_IN_DDR3_YCbCr_top",
+        "arch": {"family": "Logos2", "device": "PG2L100H", "package": "FBG676", "speedgrade": "-6"},
+        "svn_version": "166183"
+    },
+    {
+        "region": [204, 648, 353, 821],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window1", "North", "Global", "5", "198.98%", "22.13%", "4.34", "74.69%", "49.51%", "68.59%", "100.00%", "95.00%", "9.42%", "NA"]
+    },
+    {
+        "region": [168, 372, 311, 887],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window2", "North", "Global", "6", "177.05%", "13.53%", "3.94", "69.93%", "57.85%", "59.61%", "100.00%", "96.88%", "16.81%", "NA"]
+    },
+    {
+        "region": [216, 408, 371, 1013],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window3", "North", "Global", "6", "153.70%", "13.35%", "3.67", "65.89%", "37.58%", "54.00%", "100.00%", "88.75%", "11.65%", "NA"]
+    },
+    {
+        "region": [30, 366, 53, 467],
+        "cell_name": [["he_stage", "67%"], ["correction/engine", "18%"], ["HDMI_IN_DDR3_YCbCr_top", "14%"]],
+        "display": ["window4", "North", "Global", "4", "153.24%", "0%", "0.65", "15.62%", "0%", "12.76%", "100.00%", "NA", "9.38%", "NA"]
+    },
+    {
+        "region": [198, 0, 323, 941],
+        "cell_name": [["correction/engine", "53%"], ["HDMI_IN_DDR3_YCbCr_top", "46%"]],
+        "display": ["window5", "North", "Global", "6", "131.15%", "11.60%", "2.65", "47.03%", "34.94%", "38.11%", "100.00%", "66.94%", "10.06%", "NA"]
+    },
+    {
+        "region": [270, 288, 341, 527],
+        "cell_name": [["correction/engine", "55%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_dcp_top", "21%"], ["u_ddr3_test_h/u_ddrphy_top/ddrphy_calib_top", "13%"]],
+        "display": ["window6", "South", "Global", "5", "190.01%", "15.10%", "3.51", "60.51%", "43.08%", "44.53%", "100.00%", "93.75%", "8.65%", "NA"]
+    },
+    {
+        "region": [282, 96, 305, 593],
+        "cell_name": [["correction/engine/TILES[0].tiles", "68%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl", "15%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf", "4%"]],
+        "display": ["window7", "South", "Global", "5", "188.54%", "20.47%", "2.87", "44.24%", "36.11%", "35.57%", "100.00%", "NA", "1.23%", "NA"]
+    },
+    {
+        "region": [24, 828, 53, 893],
+        "cell_name": [["ddr_result_ethernet/network_stack/ip_layer/icmp", "44%"], ["ddr_result_ethernet/network_stack/ip_layer/ip_rx", "31%"], ["ddr_result_ethernet/network_stack/arp_mac_top_U1/mac_layer/mac_tx", "12%"]],
+        "display": ["window8", "South", "Global", "3", "137.05%", "0%", "2.41", "66.48%", "0%", "31.68%", "100.00%", "NA", "42.05%", "NA"]
+    },
+    {
+        "region": [162, 522, 365, 749],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window9", "South", "Global", "6", "130.86%", "15.67%", "4.00", "68.98%", "52.15%", "58.97%", "100.00%", "96.88%", "13.28%", "NA"]
+    },
+    {
+        "region": [222, 360, 335, 371],
+        "cell_name": [["correction/engine", "57%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl", "36%"], ["u_ddr3_test_h", "5%"]],
+        "display": ["window10", "West", "Global", "3", "166.84%", "5.36%", "3.48", "69.64%", "30.36%", "37.50%", "100.00%", "100.00%", "26.79%", "NA"]
+    },
+    {
+        "region": [258, 756, 299, 779],
+        "cell_name": [["correction/engine/TILES[0].tiles", "52%"], ["correction/engine/TILES[2].tiles", "29%"], ["HDMI_IN_DDR3_YCbCr_top", "18%"]],
+        "display": ["window11", "West", "Global", "3", "143.71%", "43.33%", "5.52", "85.00%", "80.56%", "62.08%", "100.00%", "50.00%", "9.17%", "NA"]
+    },
+    {
+        "region": [42, 360, 89, 377],
+        "cell_name": [["HDMI_IN_DDR3_YCbCr_top", "100%"]],
+        "display": ["window12", "West", "Global", "3", "139.00%", "0%", "1.92", "44.44%", "0%", "35.42%", "NA", "100.00%", "29.86%", "NA"]
+    },
+    {
+        "region": [252, 414, 299, 431],
+        "cell_name": [["correction/engine/TILES[0].tiles", "56%"], ["correction/engine/LANE[0].ux", "25%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf", "10%"]],
+        "display": ["window13", "West", "Global", "3", "131.00%", "13.33%", "4.23", "80.00%", "77.78%", "50.42%", "100.00%", "100.00%", "33.33%", "NA"]
+    },
+    {
+        "region": [258, 540, 299, 575],
+        "cell_name": [["correction/engine/TILES[0].tiles", "60%"], ["correction/engine/LANE[1].ux", "18%"], ["correction/engine/TILES[2].tiles", "12%"]],
+        "display": ["window14", "West", "Global", "3", "130.52%", "21.67%", "4.37", "74.17%", "83.33%", "47.50%", "100.00%", "100.00%", "25.83%", "NA"]
+    },
+    {
+        "region": [210, 876, 257, 899],
+        "cell_name": [["correction/capture", "60%"], ["correction/engine/TILES[1].tiles", "18%"], ["correction/port", "6%"]],
+        "display": ["window15", "West", "Global", "3", "125.25%", "3.75%", "3.05", "52.50%", "62.50%", "75.31%", "100.00%", "100.00%", "2.50%", "NA"]
+    }
+]

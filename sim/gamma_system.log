@@ -1,0 +1,108 @@
+# do sim/gamma_system.do
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work sim/gamma_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:31:15 on Oct 10,2026
+# vlog source/undistort/ud_async_fifo.v source/undistort/ud_capture.v source/undistort/ud_coord.v source/undistort/ud_ddr_port.v source/undistort/ud_engine.v source/undistort/ud_reset.v source/undistort/ud_system.v source/undistort/ud_tile_ram.v source/undistort/ud_video_out.v 
+# -- Compiling module ud_async_fifo
+# -- Compiling module ud_capture
+# -- Compiling module ud_coord
+# -- Compiling module ud_bilinear
+# -- Compiling module ud_ddr_port
+# -- Compiling module ud_engine
+# -- Compiling module ud_map_rom
+# -- Compiling module ud_reset
+# -- Compiling module ud_key_toggle
+# -- Compiling module ud_system
+# -- Compiling module ud_frame_copy
+# -- Compiling module ud_tile_ram
+# -- Compiling module ud_video_out
+# 
+# Top level modules:
+# 	ud_key_toggle
+# 	ud_system
+# End time: 19:31:15 on Oct 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:31:15 on Oct 10,2026
+# vlog source/img_process/gamma/gamma_table.v source/img_process/gamma/gamma_video.v 
+# -- Compiling module gamma_lookuptable
+# -- Compiling module gamma_video
+# 
+# Top level modules:
+# 	gamma_video
+# End time: 19:31:15 on Oct 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:31:15 on Oct 10,2026
+# vlog source/img_process/DCP/DCP_dehaze.v source/img_process/DCP/dark_tunnel.v source/img_process/DCP/t_computer.v source/img_process/DCP/J_recovery.v source/img_process/DCP/dcp_recip_lut.v 
+# -- Compiling module DCP_dehaze
+# -- Compiling module dcp_output_select
+# -- Compiling module dark_tunnel
+# -- Compiling module t_computer
+# -- Compiling module J_recovery
+# -- Compiling module dcp_air_lut
+# -- Compiling module dcp_t_lut
+# 
+# Top level modules:
+# 	DCP_dehaze
+# 	dcp_output_select
+# End time: 19:31:15 on Oct 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:31:15 on Oct 10,2026
+# vlog -sv sim/tb_system.sv sim/tb_gamma_system.sv 
+# -- Compiling module tb_system
+# -- Compiling module tb_gamma_system
+# 
+# Top level modules:
+# 	tb_gamma_system
+# End time: 19:31:15 on Oct 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -voptargs="+acc" work.tb_gamma_system 
+# Start time: 19:31:15 on Oct 10,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_gamma_system(fast)
+# Loading work.tb_system(fast)
+# Loading work.ud_system(fast)
+# Loading work.ud_reset(fast)
+# Loading work.ud_capture(fast)
+# Loading work.ud_async_fifo(fast)
+# Loading work.ud_engine(fast)
+# Loading work.ud_map_rom(fast)
+# Loading work.ud_coord(fast)
+# Loading work.ud_bilinear(fast)
+# Loading work.ud_tile_ram(fast)
+# Loading work.ud_frame_copy(fast)
+# Loading work.ud_async_fifo(fast__1)
+# Loading work.ud_video_out(fast)
+# Loading work.ud_ddr_port(fast)
+# Loading work.DCP_dehaze(fast)
+# Loading work.dark_tunnel(fast)
+# Loading work.t_computer(fast)
+# Loading work.dcp_air_lut(fast)
+# Loading work.J_recovery(fast)
+# Loading work.dcp_t_lut(fast)
+# Loading work.gamma_video(fast)
+# Loading work.gamma_lookuptable(fast)
+# PASS system:           8 intact nonblack display frames,        1368 DDR writes, drops=         0, processed=          9, max cycles=        741
+# ** Note: $finish    : sim/tb_system.sv(186)
+#    Time: 172569584 ps  Iteration: 1  Instance: /tb_gamma_system/source
+# PASS correction + DCP + gamma output checked=7680
+# End time: 19:31:17 on Oct 10,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

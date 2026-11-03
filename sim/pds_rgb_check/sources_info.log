@@ -1,0 +1,98 @@
+Designs:
+1. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/fram_buf.v
+Size: 14816bytes
+Last modified time: 2024/05/06 14:59:40
+2. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/rd_buf.v
+Size: 7127bytes
+Last modified time: 2023/03/29 20:44:30
+3. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/rd_ctrl.v
+Size: 4728bytes
+Last modified time: 2023/03/16 17:57:16
+4. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/sync_vg.v
+Size: 4238bytes
+Last modified time: 2023/03/29 15:21:58
+5. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/wr_buf.v
+Size: 8973bytes
+Last modified time: 2023/03/27 22:38:28
+6. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/wr_cmd_trans.v
+Size: 10026bytes
+Last modified time: 2023/03/20 14:46:50
+7. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/wr_ctrl.v
+Size: 6371bytes
+Last modified time: 2023/03/29 20:42:56
+8. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/wr_rd_ctrl_top.v
+Size: 14863bytes
+Last modified time: 2023/03/17 11:04:22
+9. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/hdmi/iic_dri.v
+Size: 15726bytes
+Last modified time: 2023/02/17 21:14:24
+10. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/hdmi/ms72xx_ctl.v
+Size: 7153bytes
+Last modified time: 2024/06/17 16:49:14
+11. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/hdmi/ms7200_ctl.v
+Size: 31324bytes
+Last modified time: 2023/02/17 21:14:24
+12. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/hdmi/ms7210_ctl.v
+Size: 11483bytes
+Last modified time: 2023/02/17 21:14:24
+13. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/img_process/RGB2YCbCr.v
+Size: 4175bytes
+Last modified time: 2026/07/09 16:15:32
+14. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/HDMI_IN_DDR3_YCbCr_top.v
+Size: 8284bytes
+Last modified time: 2026/09/26 19:21:46
+15. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_async_fifo.v
+Size: 5408bytes
+Last modified time: 2026/09/12 12:53:20
+16. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_capture.v
+Size: 7064bytes
+Last modified time: 2026/09/26 19:48:35
+17. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_coord.v
+Size: 6451bytes
+Last modified time: 2026/09/12 12:50:06
+18. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_ddr_port.v
+Size: 8766bytes
+Last modified time: 2026/09/12 12:54:29
+19. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_engine.v
+Size: 24239bytes
+Last modified time: 2026/09/26 19:48:18
+20. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_reset.v
+Size: 3649bytes
+Last modified time: 2026/09/12 12:54:46
+21. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_system.v
+Size: 23632bytes
+Last modified time: 2026/09/26 19:48:58
+22. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_tile_ram.v
+Size: 6218bytes
+Last modified time: 2026/09/12 12:51:15
+23. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/undistort/ud_video_out.v
+Size: 7099bytes
+Last modified time: 2026/09/26 19:48:18
+
+IPs:
+1. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/wr_fram_buf/wr_fram_buf.idf
+Size: 5800bytes
+Last modified time: 2026/08/11 10:59:57
+2. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/source/rtl/rd_fram_buf/rd_fram_buf.idf
+Size: 5802bytes
+Last modified time: 2026/08/11 10:59:57
+3. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/ipcore/pll/pll.idf
+Size: 41457bytes
+Last modified time: 2026/08/11 10:53:48
+4. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/ipcore/ddr3_test/ddr3_test.idf
+Size: 77018bytes
+Last modified time: 2026/08/11 11:00:27
+5. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/ipcore/cfg_pll/cfg_pll.idf
+Size: 41479bytes
+Last modified time: 2026/08/11 10:53:57
+
+Constraints:
+1. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/HDMI_IN_DDR3_YCbCr_top.fdc
+Size: 52292bytes
+Last modified time: 2026/09/10 09:58:31
+
+Physical Constraint Editor (Post-Map):
+1. D:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT_copy/device_map/hdmi_ddr_ov5640_top.pcf
+Size: 11903bytes
+Last modified time: 2026/09/26 19:42:20
+

@@ -1,0 +1,659 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT
+T_opt
+!s110 1791630832
+V<ETnBhEMMIQ=Jk`>iRnWX2
+04 14 4 work tb_gamma_video fast 0
+=1-a40c662b47a6-6aca1df0-10d-4a34
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;2020.4;71
+T_opt1
+!s110 1791630725
+VHLAIE=@OK]KlJI6SlKSL[2
+04 14 4 work tb_gamma_chain fast 0
+=1-a40c662b47a6-6aca1d85-17c-1cd4
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+R1
+n@_opt1
+R2
+R0
+T_opt2
+Z4 !s110 1791630773
+VQHeGEWZdb=Z_k2UPig<o50
+04 15 4 work tb_gamma_system fast 0
+=1-a40c662b47a6-6aca1db5-2c1-6784
+R3
+R1
+n@_opt2
+R2
+R0
+vdark_tunnel
+Z5 !s110 1791630831
+!i10b 1
+!s100 KS::oWk_jER5z_d8RQ8GP1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcQkcAP91olI?_ZP]3=;;e1
+R0
+w1791446470
+8source/img_process/DCP/dark_tunnel.v
+Fsource/img_process/DCP/dark_tunnel.v
+!i122 34
+L0 4 81
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1791630831.000000
+Z10 !s107 source/img_process/DCP/dcp_recip_lut.v|source/img_process/DCP/J_recovery.v|source/img_process/DCP/t_computer.v|source/img_process/DCP/dark_tunnel.v|source/img_process/DCP/DCP_dehaze.v|
+Z11 !s90 source/img_process/DCP/DCP_dehaze.v|source/img_process/DCP/dark_tunnel.v|source/img_process/DCP/t_computer.v|source/img_process/DCP/J_recovery.v|source/img_process/DCP/dcp_recip_lut.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdcp_air_lut
+R5
+!i10b 1
+!s100 9WR@eRefL0j4LR]X=nEEM0
+R6
+I;e^:?S:@nh]5WgAei<3n43
+R0
+Z13 w1791549034
+Z14 8source/img_process/DCP/dcp_recip_lut.v
+Z15 Fsource/img_process/DCP/dcp_recip_lut.v
+!i122 34
+L0 4 260
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+vDCP_dehaze
+R5
+!i10b 1
+!s100 =C4bXX[S2oDN2be`Z^<cd1
+R6
+IZeeETAEWUNX0<0]kJZNdB2
+R0
+Z16 w1791548921
+Z17 8source/img_process/DCP/DCP_dehaze.v
+Z18 Fsource/img_process/DCP/DCP_dehaze.v
+!i122 34
+L0 3 35
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+n@d@c@p_dehaze
+vdcp_output_select
+R5
+!i10b 1
+!s100 >aKfBfOY_fP=J53DCm3c22
+R6
+IQ[IDicaCf8LUoZbbnn[5V1
+R0
+R16
+R17
+R18
+!i122 34
+L0 40 24
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+vdcp_t_lut
+R5
+!i10b 1
+!s100 @B]O9TIkhn7PH[jffW9V:3
+R6
+I<h^N4h7f7Qm3G5T2KF0GT1
+R0
+R13
+R14
+R15
+!i122 34
+L0 264 245
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+vgamma_lookuptable
+R5
+!i10b 1
+!s100 :TJCN>Of5fXOIYHc`7E7:1
+R6
+I6>EzHBODz]=<MP5XhQ2g]0
+R0
+Z19 w1791630469
+8source/img_process/gamma/gamma_table.v
+Fsource/img_process/gamma/gamma_table.v
+!i122 33
+L0 2 279
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z20 !s107 source/img_process/gamma/gamma_video.v|source/img_process/gamma/gamma_table.v|
+Z21 !s90 source/img_process/gamma/gamma_table.v|source/img_process/gamma/gamma_video.v|
+!i113 0
+R12
+R1
+vgamma_video
+R5
+!i10b 1
+!s100 ihYTO8P;X26L6g4[U?WB30
+R6
+I<aZ?:hEN]>f^[[`@I8Kg`0
+R0
+w1791630828
+8source/img_process/gamma/gamma_video.v
+Fsource/img_process/gamma/gamma_video.v
+!i122 33
+L0 5 45
+R7
+R8
+r1
+!s85 0
+31
+R9
+R20
+R21
+!i113 0
+R12
+R1
+vHDMI_IN_DDR3_YCbCr_top
+R5
+!i10b 1
+!s100 2o1dAG8i9e^hFiHk`ozYc2
+R6
+IBj0h0D=^[QBiZXYXhYhMf1
+R0
+R19
+8source/rtl/HDMI_IN_DDR3_YCbCr_top.v
+Fsource/rtl/HDMI_IN_DDR3_YCbCr_top.v
+!i122 35
+L0 14 360
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 source/rtl/HDMI_IN_DDR3_YCbCr_top.v|
+!s90 source/rtl/HDMI_IN_DDR3_YCbCr_top.v|
+!i113 0
+R12
+R1
+n@h@d@m@i_@i@n_@d@d@r3_@y@cb@cr_top
+vJ_recovery
+R5
+!i10b 1
+!s100 Od61UU?<Sz=6zNQGga1fj2
+R6
+I1:k2Q2`cdN=>YKUS0U:m22
+R0
+R16
+8source/img_process/DCP/J_recovery.v
+Fsource/img_process/DCP/J_recovery.v
+!i122 34
+L0 3 50
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+n@j_recovery
+vt_computer
+R5
+!i10b 1
+!s100 eK5Dz_G]z1_5kfcNGIQV`1
+R6
+IPfIBKCX[Q?mf48IEZfc:U3
+R0
+R16
+8source/img_process/DCP/t_computer.v
+Fsource/img_process/DCP/t_computer.v
+!i122 34
+L0 4 36
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+vtb_dcp_dehaze
+Z22 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R5
+!i10b 1
+!s100 W<H>7:R;>?VL2^Y5`V7lg0
+R6
+I=Q_gRQGYXLgKBKULCIoak0
+S1
+R0
+R16
+8sim/tb_dcp_dehaze.sv
+Fsim/tb_dcp_dehaze.sv
+!i122 36
+L0 2 100
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z23 !s107 sim/tb_gamma_chain.sv|sim/tb_dcp_dehaze.sv|sim/tb_gamma_video.sv|
+Z24 !s90 -sv|sim/tb_gamma_video.sv|sim/tb_dcp_dehaze.sv|sim/tb_gamma_chain.sv|
+!i113 0
+Z25 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_gamma_chain
+R22
+R5
+!i10b 1
+!s100 c:eUYR8?UH?U77PelG7^i1
+R6
+I5?DhfAn?@[3?:nBkk;O?<3
+S1
+R0
+w1791630722
+8sim/tb_gamma_chain.sv
+Fsim/tb_gamma_chain.sv
+!i122 36
+L0 3 56
+R7
+R8
+r1
+!s85 0
+31
+R9
+R23
+R24
+!i113 0
+R25
+R1
+vtb_gamma_system
+R22
+R4
+!i10b 1
+!s100 ]L88H?Kcm>4lDeH5GoWX80
+R6
+IE<6?CdH8lXh8`eNzog9Ld1
+S1
+R0
+w1791630770
+8sim/tb_gamma_system.sv
+Fsim/tb_gamma_system.sv
+!i122 31
+L0 4 30
+R7
+R8
+r1
+!s85 0
+31
+Z26 !s108 1791630773.000000
+Z27 !s107 sim/tb_gamma_system.sv|sim/tb_system.sv|
+Z28 !s90 -sv|sim/tb_system.sv|sim/tb_gamma_system.sv|
+!i113 0
+R25
+R1
+vtb_gamma_video
+R22
+R5
+!i10b 1
+!s100 OQ9_^Ci8U:VO?B:O4>YR81
+R6
+IPO8QL135jL?agehh7iSDJ0
+S1
+R0
+w1791630615
+8sim/tb_gamma_video.sv
+Fsim/tb_gamma_video.sv
+!i122 36
+L0 2 77
+R7
+R8
+r1
+!s85 0
+31
+R9
+R23
+R24
+!i113 0
+R25
+R1
+vtb_system
+R22
+R4
+!i10b 1
+!s100 moC^WFGGTeF]3??YlRWNO1
+R6
+I:Vd8[CjP@ROIkX<3RlF^`3
+S1
+R0
+w1790423299
+8sim/tb_system.sv
+Fsim/tb_system.sv
+!i122 31
+L0 2 211
+R7
+R8
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 0
+R25
+R1
+vud_async_fifo
+R4
+!i10b 1
+!s100 @geiDRLT6f2XOURS`;6OK3
+R6
+I4jC@9WHN=V]_9[5OBII]O1
+R0
+w1789188800
+8source/undistort/ud_async_fifo.v
+Fsource/undistort/ud_async_fifo.v
+!i122 28
+L0 33 105
+R7
+R8
+r1
+!s85 0
+31
+Z29 !s108 1791630772.000000
+Z30 !s107 source/undistort/ud_video_out.v|source/undistort/ud_tile_ram.v|source/undistort/ud_system.v|source/undistort/ud_reset.v|source/undistort/ud_engine.v|source/undistort/ud_ddr_port.v|source/undistort/ud_coord.v|source/undistort/ud_capture.v|source/undistort/ud_async_fifo.v|
+Z31 !s90 source/undistort/ud_async_fifo.v|source/undistort/ud_capture.v|source/undistort/ud_coord.v|source/undistort/ud_ddr_port.v|source/undistort/ud_engine.v|source/undistort/ud_reset.v|source/undistort/ud_system.v|source/undistort/ud_tile_ram.v|source/undistort/ud_video_out.v|
+!i113 0
+R12
+R1
+vud_bilinear
+R4
+!i10b 1
+!s100 A3Jk^`HdJN4gjB;i@f8=13
+R6
+I=P<o:b9g?aHkT:D3BCbEL2
+R0
+Z32 w1789188606
+Z33 8source/undistort/ud_coord.v
+Z34 Fsource/undistort/ud_coord.v
+!i122 28
+L0 122 60
+R7
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R12
+R1
+vud_capture
+R4
+!i10b 1
+!s100 LL6d?S;6g[?3e?V@Z05aM3
+R6
+I^ezoTd<Pm^N<X=h2S]H?Z1
+R0
+w1790423315
+8source/undistort/ud_capture.v
+Fsource/undistort/ud_capture.v
+!i122 28
+L0 30 163
+R7
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R12
+R1
+vud_coord
+R4
+!i10b 1
+!s100 hgn`Y;4Qz7l2foJTYVFLD3
+R6
+IIX6HD6Se7g`eb3h9=?JA31
+R0
+R32
+R33
+R34
+!i122 28
+L0 33 70
+R7
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R12
+R1
+vud_ddr_port
+R4
+!i10b 1
+!s100 U3bhX^IW@2Be?=e>TDZRR2
+R6
+I4V7hk<WBYL4]Ud9XZQ1A42
+R0
+w1789188869
+8source/undistort/ud_ddr_port.v
+Fsource/undistort/ud_ddr_port.v
+!i122 28
+L0 36 197
+R7
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R12
+R1
+vud_engine
+R4
+!i10b 1
+!s100 g`>I6_Pca]a^NlWa1QhTM3
+R6
+IXc47NKEIk1An:KUP@BgRb1
+R0
+Z35 w1790423298
+Z36 8source/undistort/ud_engine.v
+Z37 Fsource/undistort/ud_engine.v
+!i122 28
+L0 32 526
+R7
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R12
+R1
+vud_frame_copy
+R4
+!i10b 1
+!s100 OnFRSUN>`QG4:n7dd?ozA2
+R6
+Im>eCSnEP=`c<2f[07K3g_1
+R0
+Z38 w1790423338
+Z39 8source/undistort/ud_system.v
+Z40 Fsource/undistort/ud_system.v
+!i122 28
+L0 638 120
+R7
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R12
+R1
+vud_key_toggle
+R5
+!i10b 1
+!s100 L@gLM5lfLdheFAHgg]7?[3
+R6
+I_lH^VGP;eVJW?;CBH@>DF0
+R0
+Z41 w1789188886
+Z42 8source/undistort/ud_reset.v
+Z43 Fsource/undistort/ud_reset.v
+!i122 32
+L0 41 56
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z44 !s107 source/undistort/ud_reset.v|
+Z45 !s90 source/undistort/ud_reset.v|
+!i113 0
+R12
+R1
+vud_map_rom
+R4
+!i10b 1
+!s100 m2hbf]N2b[kFmL<`Ief3Q1
+R6
+I>dPRm8P^;7WzAcPzJ@blB1
+R0
+R35
+R36
+R37
+!i122 28
+L0 569 18
+R7
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R12
+R1
+vud_reset
+R5
+!i10b 1
+!s100 B[R5QzAEFWGa]Ge@IH=X10
+R6
+I=N@IGb`iFcTmOj4kcRQNj2
+R0
+R41
+R42
+R43
+!i122 32
+L0 15 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+R44
+R45
+!i113 0
+R12
+R1
+vud_system
+R4
+!i10b 1
+!s100 DSD<MgdA5Wbcc@JfB19N42
+R6
+I@CfYQ_N7Q8>nY59I9eB1d1
+R0
+R38
+R39
+R40
+!i122 28
+L0 47 588
+R7
+R8
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 0
+R12
+R1
+vud_tile_ram
+R4
+!i10b 1
+!s100 826G]:`0Mbmj2WM99Oi8d1
+R6
+IlOT7AALSH6MGLb?hB[foA2
+R0
+w17

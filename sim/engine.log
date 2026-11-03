@@ -1,0 +1,53 @@
+# do sim/engine.do
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work sim/work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:25:36 on Sep 09,2026
+# vlog source/undistort/ud_coord.v source/undistort/ud_tile_ram.v source/undistort/ud_engine.v 
+# -- Compiling module ud_coord
+# -- Compiling module ud_bilinear
+# -- Compiling module ud_tile_ram
+# -- Compiling module ud_engine
+# 
+# Top level modules:
+# 	ud_engine
+# End time: 21:25:36 on Sep 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:25:36 on Sep 09,2026
+# vlog -sv sim/tb_engine.sv 
+# -- Compiling module tb_engine
+# 
+# Top level modules:
+# 	tb_engine
+# End time: 21:25:36 on Sep 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -voptargs="+acc" work.tb_engine 
+# Start time: 21:25:37 on Sep 09,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "ud_engine(fast)".
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_engine(fast)
+# Loading work.ud_engine(fast)
+# Loading work.ud_coord(fast)
+# Loading work.ud_bilinear(fast)
+# Loading work.ud_tile_ram(fast)
+# PASS engine          32x         24:         768 pixels,        498 cycles, 0.004 ms at 125 MHz
+# ** Note: $finish    : sim/tb_engine.sv(62)
+#    Time: 4060 ns  Iteration: 1  Instance: /tb_engine
+# End time: 21:25:38 on Sep 09,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

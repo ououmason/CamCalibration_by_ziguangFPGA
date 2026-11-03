@@ -1,0 +1,503 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/EEprjs_plans/2026EE_Competiton_Ziguang/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/fpga_code/HDMI_UNDISTORT
+T_opt
+!s110 1792057704
+VgXo^d=mH`AWQ5z>=haNkP1
+04 17 4 work tb_he_short_blank fast 0
+=1-a40c662b47a6-6ad0a168-57-448c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+Z4 !s110 1792057700
+VBLXlM>kmJD;ah@lEhKONo2
+04 11 4 work tb_he_video fast 0
+=1-a40c662b47a6-6ad0a164-26c-7d8
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1792057707
+V[ahJKLni;:ClnFG=cG=F71
+04 11 4 work tb_he_color fast 0
+=1-a40c662b47a6-6ad0a16a-337-2cf4
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt2
+R3
+vdark_tunnel
+Z5 !s110 1791632682
+!i10b 1
+!s100 KS::oWk_jER5z_d8RQ8GP1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcQkcAP91olI?_ZP]3=;;e1
+R0
+w1791446470
+8source/img_process/DCP/dark_tunnel.v
+Fsource/img_process/DCP/dark_tunnel.v
+!i122 86
+L0 4 81
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1791632681.000000
+Z10 !s107 source/img_process/DCP/dcp_recip_lut.v|source/img_process/DCP/J_recovery.v|source/img_process/DCP/t_computer.v|source/img_process/DCP/dark_tunnel.v|source/img_process/DCP/DCP_dehaze.v|
+Z11 !s90 source/img_process/DCP/DCP_dehaze.v|source/img_process/DCP/dark_tunnel.v|source/img_process/DCP/t_computer.v|source/img_process/DCP/J_recovery.v|source/img_process/DCP/dcp_recip_lut.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdcp_air_lut
+R5
+!i10b 1
+!s100 9WR@eRefL0j4LR]X=nEEM0
+R6
+I;e^:?S:@nh]5WgAei<3n43
+R0
+Z13 w1791549034
+Z14 8source/img_process/DCP/dcp_recip_lut.v
+Z15 Fsource/img_process/DCP/dcp_recip_lut.v
+!i122 86
+L0 4 260
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vDCP_dehaze
+Z16 !s110 1791632681
+!i10b 1
+!s100 =C4bXX[S2oDN2be`Z^<cd1
+R6
+IZeeETAEWUNX0<0]kJZNdB2
+R0
+Z17 w1791548921
+Z18 8source/img_process/DCP/DCP_dehaze.v
+Z19 Fsource/img_process/DCP/DCP_dehaze.v
+!i122 86
+L0 3 35
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+n@d@c@p_dehaze
+vdcp_output_select
+R5
+!i10b 1
+!s100 >aKfBfOY_fP=J53DCm3c22
+R6
+IQ[IDicaCf8LUoZbbnn[5V1
+R0
+R17
+R18
+R19
+!i122 86
+L0 40 24
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vdcp_t_lut
+R5
+!i10b 1
+!s100 @B]O9TIkhn7PH[jffW9V:3
+R6
+I<h^N4h7f7Qm3G5T2KF0GT1
+R0
+R13
+R14
+R15
+!i122 86
+L0 264 245
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vgamma_lookuptable
+R16
+!i10b 1
+!s100 :TJCN>Of5fXOIYHc`7E7:1
+R6
+I6>EzHBODz]=<MP5XhQ2g]0
+R0
+w1791630469
+8source/img_process/gamma/gamma_table.v
+Fsource/img_process/gamma/gamma_table.v
+!i122 85
+L0 2 279
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z20 !s107 source/img_process/HE/yuv2rgb.v|source/img_process/HE/rgb2yuv.v|source/img_process/HE/hist_equalization.v|source/img_process/HE/he_video.v|source/img_process/gamma/gamma_video.v|source/img_process/gamma/gamma_table.v|
+Z21 !s90 source/img_process/gamma/gamma_table.v|source/img_process/gamma/gamma_video.v|source/img_process/HE/he_video.v|source/img_process/HE/hist_equalization.v|source/img_process/HE/rgb2yuv.v|source/img_process/HE/yuv2rgb.v|
+!i113 0
+R12
+R2
+vgamma_video
+R16
+!i10b 1
+!s100 ihYTO8P;X26L6g4[U?WB30
+R6
+I<aZ?:hEN]>f^[[`@I8Kg`0
+R0
+w1791630828
+8source/img_process/gamma/gamma_video.v
+Fsource/img_process/gamma/gamma_video.v
+!i122 85
+L0 5 45
+R7
+R8
+r1
+!s85 0
+31
+R9
+R20
+R21
+!i113 0
+R12
+R2
+vHDMI_IN_DDR3_YCbCr_top
+R4
+!i10b 1
+!s100 OOPfe`3i3FRNLPDmJPMaW3
+R6
+I7Xa3^kOS^:i;5F4SM:A2Z3
+R0
+w1792046212
+8source/rtl/HDMI_IN_DDR3_YCbCr_top.v
+Fsource/rtl/HDMI_IN_DDR3_YCbCr_top.v
+!i122 124
+L0 4 426
+R7
+R8
+r1
+!s85 0
+31
+Z22 !s108 1792057700.000000
+!s107 source/rtl/HDMI_IN_DDR3_YCbCr_top.v|
+!s90 source/rtl/HDMI_IN_DDR3_YCbCr_top.v|
+!i113 0
+R12
+R2
+n@h@d@m@i_@i@n_@d@d@r3_@y@cb@cr_top
+vhe_hist_ram
+Z23 !s110 1792057703
+!i10b 1
+!s100 C6eW4VDdP6AL6NYdJgSHe2
+R6
+I@P2Y`4?1OlVjNnFh[f01]2
+R0
+Z24 w1791632578
+8ipcore/he_hist_ram/he_hist_ram.v
+Fipcore/he_hist_ram/he_hist_ram.v
+!i122 126
+Z25 L0 18 57
+R7
+R8
+r1
+!s85 0
+31
+Z26 !s108 1792057703.000000
+Z27 !s107 ipcore/he_hist_ram/he_hist_ram.v|ipcore/he_hist_ram/rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v|
+Z28 !s90 ipcore/he_hist_ram/rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v|ipcore/he_hist_ram/he_hist_ram.v|
+!i113 0
+R12
+R2
+vhe_hist_ram_sync
+Z29 !s110 1791632382
+!i10b 1
+!s100 KKi4Cb[FA79UD>QjaaFnP3
+R6
+I41NHX4E<@Wi]>K>QRkc^72
+R0
+Z30 w1791632365
+Z31 8source/img_process/HE/he_ram_adapter.v
+Z32 Fsource/img_process/HE/he_ram_adapter.v
+!i122 63
+L0 6 13
+R7
+R8
+r1
+!s85 0
+31
+Z33 !s108 1791632382.000000
+Z34 !s107 source/img_process/HE/yuv2rgb.v|source/img_process/HE/rgb2yuv.v|source/img_process/HE/hist_equalization.v|source/img_process/HE/he_video.v|source/img_process/HE/he_ram_adapter.v|source/img_process/gamma/gamma_video.v|source/img_process/gamma/gamma_table.v|
+Z35 !s90 source/img_process/gamma/gamma_table.v|source/img_process/gamma/gamma_video.v|source/img_process/HE/he_ram_adapter.v|source/img_process/HE/he_video.v|source/img_process/HE/hist_equalization.v|source/img_process/HE/rgb2yuv.v|source/img_process/HE/yuv2rgb.v|
+!i113 0
+R12
+R2
+vhe_map_ram
+R23
+!i10b 1
+!s100 J566QA_MJQ8:`L0jCZ8L61
+R6
+IJ`=?8DBT<UnkK<AC8:MlB3
+R0
+Z36 w1791632603
+8ipcore/he_map_ram/he_map_ram.v
+Fipcore/he_map_ram/he_map_ram.v
+!i122 127
+R25
+R7
+R8
+r1
+!s85 0
+31
+R26
+Z37 !s107 ipcore/he_map_ram/he_map_ram.v|ipcore/he_map_ram/rtl/ipm_distributed_sdpram_v1_3_he_map_ram.v|
+Z38 !s90 ipcore/he_map_ram/rtl/ipm_distributed_sdpram_v1_3_he_map_ram.v|ipcore/he_map_ram/he_map_ram.v|
+!i113 0
+R12
+R2
+vhe_map_ram_sync
+R29
+!i10b 1
+!s100 UzC:nk3RH5NjJWnSRC?1N3
+R6
+I=lLiV@0Uec@;i?BQ<1eFd2
+R0
+R30
+R31
+R32
+!i122 63
+L0 20 13
+R7
+R8
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 0
+R12
+R2
+vhe_video
+R4
+!i10b 1
+!s100 ;1SE`GHQc9Kmk_ECjd0Cz2
+R6
+I^ebZZQU>el=5`4V9<S0S33
+R0
+w1791631408
+8source/img_process/HE/he_video.v
+Fsource/img_process/HE/he_video.v
+!i122 123
+L0 4 56
+R7
+R8
+r1
+!s85 0
+31
+R22
+!s107 source/img_process/HE/yuv2rgb.v|source/img_process/HE/rgb2yuv.v|source/img_process/HE/hist_equalization.v|source/img_process/HE/he_video.v|
+!s90 source/img_process/HE/he_video.v|source/img_process/HE/hist_equalization.v|source/img_process/HE/rgb2yuv.v|source/img_process/HE/yuv2rgb.v|
+!i113 0
+R12
+R2
+vhist_equalization
+R23
+!i10b 1
+!s100 U5X5LJ;Wl``X6A933:2;33
+R6
+I4IcId73Q@RVQOQJo9TI0h0
+R0
+w1792057602
+8source/img_process/HE/hist_equalization.v
+Fsource/img_process/HE/hist_equalization.v
+!i122 128
+L0 7 174
+R7
+R8
+r1
+!s85 0
+31
+R26
+!s107 source/img_process/HE/hist_equalization.v|
+!s90 source/img_process/HE/hist_equalization.v|
+!i113 0
+R12
+R2
+vipm_distributed_sdpram_v1_3_he_hist_ram
+R23
+!i10b 1
+!s100 djN2h0O7dlm`I=MO^<hea1
+R6
+ImHNag7cQQc_g1hKiV4JmV2
+R0
+R24
+8ipcore/he_hist_ram/rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v
+Fipcore/he_hist_ram/rtl/ipm_distributed_sdpram_v1_3_he_hist_ram.v
+!i122 126
+Z39 L0 20 88
+R7
+R8
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 0
+R12
+R2
+vipm_distributed_sdpram_v1_3_he_map_ram
+R23
+!i10b 1
+!s100 SIV]WD9]Ekdb`o`eb5`el0
+R6
+IJ93RJUgW?^iJQW3az1]_M1
+R0
+R36
+8ipcore/he_map_ram/rtl/ipm_distributed_sdpram_v1_3_he_map_ram.v
+Fipcore/he_map_ram/rtl/ipm_distributed_sdpram_v1_3_he_map_ram.v
+!i122 127
+R39
+R7
+R8
+r1
+!s85 0
+31
+R26
+R37
+R38
+!i113 0
+R12
+R2
+vJ_recovery
+R5
+!i10b 1
+!s100 Od61UU?<Sz=6zNQGga1fj2
+R6
+I1:k2Q2`cdN=>YKUS0U:m22
+R0
+R17
+8source/img_process/DCP/J_recovery.v
+Fsource/img_process/DCP/J_recovery.v
+!i122 86
+L0 3 50
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+n@j_recovery
+vrgb2yuv
+Z40 !s110 1792057706
+!i10b 1
+!s100 ScJzGL=TXhO_CF]_gRW8f1
+R6
+I66lgi2J?Ud]a?R;4531ZY1
+R0
+Z41 w1791631353
+8source/img_process/HE/rgb2yuv.v
+Fsource/img_process/HE/rgb2yuv.v
+!i122 130
+L0 4 47
+R7
+R8
+r1
+!s85 0
+31
+Z42 !s108 1792057706.000000
+Z43 !s107 source/img_process/HE/yuv2rgb.v|source/img_process/HE/rgb2yuv.v|
+Z44 !s90 source/img_process/HE/rgb2yuv.v|source/img_process/HE/yuv2rgb.v|
+!i113 0
+R12
+R2
+vt_computer
+R5
+!i10b 1
+!s100 eK5Dz_G]z1_5kfcNGIQV`1
+R6
+IPfIBKCX[Q?mf48IEZfc:U3
+R0
+R17
+8source/img_process/DCP/t_computer.v
+Fsource/img_process/DCP/t_computer.v
+!i122 86
+L0 4 36
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vtb_he_color
+Z45 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R40
+!i10b 1
+!s100 ?d@=6=BV`n@XF8b^T4^FK1
+R6
+IYN_S1LB?mOVDL<G6I7nN60
+S1
+R0
+w1791631734
+8sim/tb_he_color.sv
+Fsim/tb_he_color.sv
+!i122 131
+L0 3 47
+R7
+R8
+r1
+!s85 0
+31
+R42
+!s107 sim/tb_he_color.sv|
+!s90 -sv|sim/tb_he_color.sv|
+!i113 0

@@ -1,0 +1,31 @@
+# vlib sim/work
+# ** Warning: (vlib-34) Library already exists at "sim/work".
+# Errors: 0, Warnings: 1
+#  vmap work sim/work
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work sim/work 
+# Modifying modelsim.ini
+#  vlog source/undistort/*.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:23:17 on Sep 26,2026
+# vlog source/undistort/ud_async_fifo.v source/undistort/ud_capture.v source/undistort/ud_coord.v source/undistort/ud_ddr_port.v source/undistort/ud_engine.v source/undistort/ud_reset.v source/undistort/ud_system.v source/undistort/ud_tile_ram.v source/undistort/ud_video_out.v 
+# -- Compiling module ud_async_fifo
+# -- Compiling module ud_capture
+# -- Compiling module ud_coord
+# -- Compiling module ud_bilinear
+# -- Compiling module ud_ddr_port
+# -- Compiling module ud_engine
+# -- Compiling module ud_map_rom
+# -- Compiling module ud_reset
+# -- Compiling module ud_key_toggle
+# -- Compiling module ud_system
+# -- Compiling module ud_frame_copy
+# -- Compiling module ud_tile_ram
+# -- Compiling module ud_video_out
+# 
+# Top level modules:
+# 	ud_key_toggle
+# 	ud_system
+# End time: 19:23:17 on Sep 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#  quit -code 0 -force

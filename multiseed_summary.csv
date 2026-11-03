@@ -1,0 +1,39 @@
+version,2023.2-SP4<build 166183>
+project name,HDMI_IN_DDR3_YCbCr.pds
+
+Single Seed:
+Seed,State,Convergence,Setup(Slow),Setup(Fast),Hold(Slow),Hold(Fast),Recovery(Slow),Recovery(Fast),Removal(Slow),Removal(Fast),PBM-GP,PBM-PreGP,PBM-PostGP,LP,Total Placement Cpu Time,Detailed routing,Total Routing Cpu Time,Wire Length After Post-GP,Wire Length After LP,Wire Length After DP,Routing Arc Length,Worst Slack After GP Timing,Worst Slack After LP Timing,Worst Slack Before RP,Worst Slack Before DP,Worst Slack After DP,Worst Slack After Placement,Worst Slack After TA By Preroute,TNS After DP,TNS Before Route,Setup(Slow) Total Failing TNS,Setup(Slow) Total Failing Endpoints,Hold(Slow) Total Failing THS,Hold(Slow) Total Failing Endpoints,Power
+single,OK,Fail,-0.819,1.603,0.039,0.025,-3.116,-1.849,-0.095,-0.223,12.78,NA,0.02,3.67,374.56,205.93,244.48,NA,NA,NA,389330,NA,NA,NA,-1030,-453,-446,-2905,-6086,-18706,-22.090,57,0.000,0,NA
+Pass Rate/Convergence Rate,100.00%,0.00%
+
+Synthesize:
+control_set,493
+Synthesize Performance Summary:
+slack category,Synthesize Setup WNS,Synthesize Setup TNS,Synthesize Recovery WNS,Synthesize Recovery TNS
+slack value,-2.279,-402.382,-2.939,-16.209
+Synthesize Compile Points Summary:
+Name,type,Status,Reason,Start Time,End Time,Real Time,CPU Time
+NA,NA,NA,NA,NA,NA,NA,NA
+compile points number:,NA
+Synthesize Cpu Time,0h:2m:33s
+Synthesize Process Cpu Time,0h:2m:49s
+Synthesize Real Time,0h:2m:53s
+
+Device Map:
+Device Map Resource Usage Summary:
+Logic Utilization,LUT,FF,DRM,APM,Distributed RAM,HSSTHP,USCM,HCKB,RCKB
+Used,17371,17942,154.5,103,1868,NA,7,0,2
+Available,66600,133200,155,240,19900,NA,32,96,24
+Utilization(%),27%,14%,100%,43%,10%,NA,22%,0%,9%
+Device Map Process Cpu Time,0h:1m:22s
+
+Project Configurations:
+top module,HDMI_IN_DDR3_YCbCr_top
+compile," -top_module {HDMI_IN_DDR3_YCbCr_top} "
+synthesize," -ads "
+device map,
+place & route,
+
+Test Parameters Configurations:
+testparam,
+
