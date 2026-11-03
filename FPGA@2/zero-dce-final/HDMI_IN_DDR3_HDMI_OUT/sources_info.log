@@ -1,0 +1,136 @@
+Designs:
+1. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/sync_vg.v
+Size: 4238bytes
+Last modified time: 2026/07/05 11:34:56
+2. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/wr_buf.v
+Size: 8973bytes
+Last modified time: 2026/07/05 11:34:56
+3. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/wr_ctrl.v
+Size: 6371bytes
+Last modified time: 2026/07/05 11:34:56
+4. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/hdmi/iic_dri.v
+Size: 15726bytes
+Last modified time: 2026/07/05 11:34:56
+5. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/hdmi/ms72xx_ctl.v
+Size: 7153bytes
+Last modified time: 2026/07/05 11:34:56
+6. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/hdmi/ms7200_ctl.v
+Size: 31324bytes
+Last modified time: 2026/07/05 11:34:56
+7. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/hdmi/ms7210_ctl.v
+Size: 11483bytes
+Last modified time: 2026/07/05 11:34:56
+8. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/HDMI_IN_DDR3_HDMI_OUT_top.v
+Size: 25628bytes
+Last modified time: 2026/11/01 13:58:31
+9. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/zero_dce/zdce_cnn_core.v
+Size: 22681bytes
+Last modified time: 2026/10/28 19:24:12
+10. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/zero_dce/zdce_curve_map.v
+Size: 7102bytes
+Last modified time: 2026/10/21 22:56:46
+11. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/zero_dce/zdce_curve_rgb.v
+Size: 1473bytes
+Last modified time: 2026/10/21 22:21:02
+12. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/zero_dce/zdce_curve_stage.v
+Size: 1293bytes
+Last modified time: 2026/10/21 22:21:00
+13. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/zero_dce/zdce_ddr_read_adapter.v
+Size: 1771bytes
+Last modified time: 2026/11/01 15:01:21
+14. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/zero_dce/zdce_thumbnail.v
+Size: 4042bytes
+Last modified time: 2026/10/21 22:26:04
+15. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/zero_dce/zdce_video.v
+Size: 5665bytes
+Last modified time: 2026/10/22 15:59:54
+16. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/zero_dce/zdce_grid_overlay.v
+Size: 7855bytes
+Last modified time: 2026/11/01 15:01:20
+17. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_angle.v
+Size: 6221bytes
+Last modified time: 2026/10/30 12:58:18
+18. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_bus_ctrl.v
+Size: 14883bytes
+Last modified time: 2026/11/01 14:02:36
+19. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_cmd_trans.v
+Size: 10052bytes
+Last modified time: 2026/11/01 14:02:36
+20. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_coord.v
+Size: 8434bytes
+Last modified time: 2026/11/01 15:01:19
+21. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_ddr.v
+Size: 9798bytes
+Last modified time: 2026/11/01 15:00:43
+22. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_frame_buf.v
+Size: 12030bytes
+Last modified time: 2026/11/03 14:48:08
+23. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_rd_buf.v
+Size: 7301bytes
+Last modified time: 2026/11/01 13:57:16
+24. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_rd_ctrl.v
+Size: 4739bytes
+Last modified time: 2026/11/01 14:01:54
+25. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/rotate_read_arb.v
+Size: 1501bytes
+Last modified time: 2026/10/29 17:30:07
+26. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rotate/video_mode_frame_buf.v
+Size: 11698bytes
+Last modified time: 2026/11/03 14:48:08
+27. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/uart/uart_frame_parser.v
+Size: 4688bytes
+Last modified time: 2026/10/29 16:20:46
+28. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/uart/uart_rx.v
+Size: 3165bytes
+Last modified time: 2026/09/13 12:13:38
+29. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/uart/uart_top.v
+Size: 1038bytes
+Last modified time: 2026/10/29 16:20:46
+30. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/fram_buf.v
+Size: 15200bytes
+Last modified time: 2026/11/01 14:00:28
+31. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/rd_buf.v
+Size: 7127bytes
+Last modified time: 2026/07/05 11:34:56
+32. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/rd_ctrl.v
+Size: 4728bytes
+Last modified time: 2026/07/05 11:34:56
+33. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/wr_cmd_trans.v
+Size: 10026bytes
+Last modified time: 2026/07/05 11:34:56
+34. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/wr_rd_ctrl_top.v
+Size: 14863bytes
+Last modified time: 2026/07/05 11:34:56
+
+IPs:
+1. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/wr_fram_buf/wr_fram_buf.idf
+Size: 5800bytes
+Last modified time: 2026/07/09 14:27:44
+2. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/source/rtl/rd_fram_buf/rd_fram_buf.idf
+Size: 5802bytes
+Last modified time: 2026/07/09 14:27:44
+3. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/ipcore/pll/pll.idf
+Size: 41459bytes
+Last modified time: 2026/07/09 13:58:38
+4. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/ipcore/ddr3_test/ddr3_test.idf
+Size: 80848bytes
+Last modified time: 2026/07/09 15:33:16
+5. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/ipcore/cfg_pll/cfg_pll.idf
+Size: 41481bytes
+Last modified time: 2026/07/09 13:58:46
+
+Constraints:
+1. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/HDMI_IN_DDR3_HDMI_OUT_top.fdc
+Size: 53187bytes
+Last modified time: 2026/11/01 13:58:22
+
+Fabric Inserter:
+1. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/synthesize/HDMI_IN_DDR3_HDMI_OUT_top_syn.fic
+Size: 2489bytes
+Last modified time: 2026/07/05 11:34:56
+
+Physical Constraint Editor (Post-Map):
+1. D:/sim/zero-dce-final/HDMI_IN_DDR3_HDMI_OUT/device_map/hdmi_ddr_ov5640_top.pcf
+Size: 12133bytes
+Last modified time: 2026/11/01 15:44:08
+

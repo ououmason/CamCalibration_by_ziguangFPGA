@@ -1,0 +1,7 @@
+# Add as a constraint file in PDS, not as Verilog source.
+# C18 keeps the original ddr_init_done port binding and now indicates OSD state.
+define_attribute {p:key2} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key2} {PAP_IO_LOC} {C23}
+define_attribute {p:key2} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key2} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key2} {PAP_IO_PULLUP} {TRUE}

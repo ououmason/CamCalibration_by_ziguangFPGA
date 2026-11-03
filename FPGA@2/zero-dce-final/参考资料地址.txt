@@ -1,0 +1,13 @@
+## 🔗 官方链接（全部可直连）
+
+1. CVPR2020 论文（原版 Zero-DCE）
+[https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf)
+arXiv 预印本：[https://arxiv.org/pdf/2001.06826v1](https://arxiv.org/pdf/2001.06826v1)
+2. Zero-DCE++ 期刊扩展（重点！适合 FPGA，参数量仅 10k）
+[https://arxiv.org/pdf/2103.00860.pdf](https://arxiv.org/pdf/2103.00860.pdf)
+3. 作者项目主页（含图表、消融实验、补充材料）
+[https://li-chongyi.github.io/Proj_Zero-DCE.html](https://li-chongyi.github.io/Proj_Zero-DCE.html)
+[https://li-chongyi.github.io/Proj_Zero-DCE++.html](https://li-chongyi.github.io/Proj_Zero-DCE++.html)
+4. 官方 Github 仓库
+Zero-DCE 原版：[https://github.com/Li-Chongyi/Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE)
+Zero-DCE++：[https://github.com/Li-Chongyi/Zero-DCE_extension](https://github.com/Li-Chongyi/Zero-DCE_extension)

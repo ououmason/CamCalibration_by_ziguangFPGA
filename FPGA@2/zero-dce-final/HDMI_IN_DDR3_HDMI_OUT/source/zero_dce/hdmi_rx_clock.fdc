@@ -1,0 +1,5 @@
+# Add this constraint file to PDS for the 1080p60 / 148.5 MHz HDMI input.
+# Replace the inferred 1000 ns input clock with its actual pixel period.
+# Do not add a second explicit clock on pixclk_in in another constraint file.
+create_clock -name {hdmi_rx_pixclk} [get_ports {pixclk_in}] -period {6.734006} -waveform {0.000000 3.367003}
+# Board-specific HDMI input/output delays must be supplied separately.

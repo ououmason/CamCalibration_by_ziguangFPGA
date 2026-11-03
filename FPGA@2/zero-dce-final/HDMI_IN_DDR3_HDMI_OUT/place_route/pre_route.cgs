@@ -1,0 +1,177 @@
+[
+    {
+        "phase": "route",
+        "table_title": "Route",
+        "title": ["Window", "Direction", "Type", "Level", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "name": ["Window", "Direction", "Type", "Level", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "version": 1,
+        "top_module_name": "HDMI_IN_DDR3_HDMI_OUT_top",
+        "arch": {"family": "Logos2", "device": "PG2L100H", "package": "FBG676", "speedgrade": "-6"},
+        "svn_version": "166183"
+    },
+    {
+        "region": [216, 744, 293, 815],
+        "cell_name": [["fram_buf/u_r/renderer", "79%"], ["u_zero_dce/video/curve_pipeline", "11%"], ["fram_buf", "4%"]],
+        "display": ["window1", "West", "Short", "4", "39.77%", "5.43", "93.86%", "83.64%", "66.36%", "100.00%", "87.50%", "16.14%", "NA"]
+    },
+    {
+        "region": [234, 714, 299, 797],
+        "cell_name": [["fram_buf/u_r/renderer", "77%"], ["u_zero_dce/video/curve_pipeline", "9%"], ["u_zero_dce/video/coefficient_map", "6%"]],
+        "display": ["window2", "West", "Short", "4", "42.58%", "5.60", "95.05%", "80.77%", "70.19%", "100.00%", "87.50%", "16.90%", "NA"]
+    },
+    {
+        "region": [150, 582, 371, 857],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window3", "West", "Long", "6", "11.19%", "3.68", "71.87%", "25.49%", "48.13%", "88.89%", "91.67%", "22.70%", "NA"]
+    },
+    {
+        "region": [186, 696, 371, 971],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window4", "West", "Long", "6", "11.61%", "3.51", "67.30%", "28.99%", "50.47%", "92.00%", "88.89%", "15.50%", "NA"]
+    },
+    {
+        "region": [192, 480, 233, 557],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window5", "West", "Long", "4", "0%", "2.30", "60.10%", "0%", "33.97%", "NA", "NA", "40.22%", "NA"]
+    },
+    {
+        "region": [126, 648, 365, 923],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window6", "South", "Long", "6", "10.97%", "3.43", "66.48%", "25.56%", "46.10%", "92.31%", "88.89%", "19.46%", "NA"]
+    },
+    {
+        "region": [234, 936, 311, 1013],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window7", "South", "Long", "4", "0%", "2.85", "59.40%", "0%", "59.03%", "83.33%", "33.33%", "9.40%", "NA"]
+    },
+    {
+        "region": [234, 618, 311, 683],
+        "cell_name": [["u_zero_dce/video", "50%"], ["u_ddr3_test_h", "32%"], ["fram_buf/u_r/renderer", "15%"]],
+        "display": ["window8", "South", "Long", "4", "3.28%", "3.89", "78.41%", "18.64%", "49.56%", "75.00%", "100.00%", "28.66%", "NA"]
+    },
+    {
+        "region": [216, 462, 293, 539],
+        "cell_name": [["u_zero_dce/video/core", "41%"], ["fram_buf/u_r", "29%"], ["u_zero_dce/video/curve_pipeline", "28%"]],
+        "display": ["window9", "South", "Long", "4", "0%", "3.11", "72.69%", "0%", "45.29%", "66.67%", "91.67%", "39.62%", "NA"]
+    },
+    {
+        "region": [210, 354, 287, 431],
+        "cell_name": [["u_zero_dce/video/core", "66%"], ["u_zero_dce/video/curve_pipeline/iteration[6].color[2].stage", "20%"], ["u_zero_dce/video/curve_pipeline/iteration[7].color[2].stage", "12%"]],
+        "display": ["window10", "South", "Long", "4", "0%", "0.89", "19.12%", "0%", "24.68%", "100.00%", "83.33%", "11.54%", "NA"]
+    },
+    {
+        "region": [228, 252, 269, 317],
+        "cell_name": [["u_zero_dce/video/core", "100%"]],
+        "display": ["window11", "South", "Long", "4", "0%", "0", "0%", "0%", "0%", "100.00%", "0%", "0%", "NA"]
+    },
+    {
+        "region": [222, 708, 311, 1229],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window12", "South", "Long", "6", "8.93%", "2.33", "44.39%", "23.02%", "35.88%", "90.62%", "46.88%", "11.32%", "NA"]
+    },
+    {
+        "region": [222, 354, 287, 545],
+        "cell_name": [["u_zero_dce/video/core", "48%"], ["u_zero_dce/video/curve_pipeline", "33%"], ["fram_buf/u_r/angle_control/calc", "16%"]],
+        "display": ["window13", "South", "Long", "5", "0.10%", "2.19", "50.60%", "0%", "37.78%", "83.33%", "87.50%", "29.18%", "NA"]
+    },
+    {
+        "region": [246, 180, 263, 563],
+        "cell_name": [["u_zero_dce/video/core", "62%"], ["u_zero_dce/video/curve_pipeline", "22%"], ["fram_buf/u_r/angle_control/calc", "12%"]],
+        "display": ["window14", "South", "Long", "4", "0%", "0.92", "20.04%", "NA", "18.25%", "92.31%", "NA", "7.14%", "NA"]
+    },
+    {
+        "region": [132, 522, 371, 797],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window15", "North", "Long", "6", "8.93%", "3.63", "72.71%", "20.07%", "47.94%", "92.59%", "88.89%", "24.82%", "NA"]
+    },
+    {
+        "region": [234, 828, 311, 905],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window16", "North", "Long", "4", "4.70%", "3.68", "71.79%", "35.38%", "58.71%", "83.33%", "100.00%", "23.08%", "NA"]
+    },
+    {
+        "region": [222, 330, 287, 431],
+        "cell_name": [["u_zero_dce/video/core", "68%"], ["u_zero_dce/video/curve_pipeline/iteration[6].color[2].stage", "20%"], ["u_zero_dce/video/curve_pipeline/iteration[7].color[2].stage", "11%"]],
+        "display": ["window17", "North", "Long", "4", "0%", "0.74", "16.08%", "0%", "20.86%", "100.00%", "62.50%", "9.93%", "NA"]
+    },
+    {
+        "region": [234, 504, 299, 569],
+        "cell_name": [["u_zero_dce/video/core", "44%"], ["u_zero_dce/video/curve_pipeline", "36%"], ["fram_buf/u_r/renderer/coords", "9%"]],
+        "display": ["window18", "North", "Long", "4", "0.32%", "3.04", "73.86%", "0%", "51.62%", "100.00%", "87.50%", "45.13%", "NA"]
+    },
+    {
+        "region": [162, 600, 359, 911],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window19", "North", "Long", "6", "10.26%", "3.53", "68.74%", "24.77%", "47.02%", "90.00%", "92.50%", "20.37%", "NA"]
+    },
+    {
+        "region": [210, 246, 287, 323],
+        "cell_name": [["u_zero_dce/video/core", "100%"]],
+        "display": ["window20", "North", "Long", "4", "0%", "0", "0%", "0%", "0%", "100.00%", "0%", "0%", "NA"]
+    },
+    {
+        "region": [234, 492, 287, 1229],
+        "cell_name": [["fram_buf/u_r/renderer", "40%"], ["u_zero_dce/video", "35%"], ["fram_buf/u_r", "10%"]],
+        "display": ["window21", "North", "Long", "6", "8.40%", "2.83", "56.34%", "21.67%", "43.52%", "79.17%", "61.46%", "20.64%", "NA"]
+    },
+    {
+        "region": [192, 354, 281, 443],
+        "cell_name": [["u_zero_dce/video/core", "57%"], ["u_zero_dce/video/curve_pipeline/iteration[6].color[2].stage", "22%"], ["u_zero_dce/video/curve_pipeline/iteration[7].color[2].stage", "12%"]],
+        "display": ["window22", "North", "Long", "4", "0.15%", "0.66", "15.08%", "0%", "18.30%", "100.00%", "83.33%", "9.39%", "NA"]
+    },
+    {
+        "region": [246, 126, 263, 329],
+        "cell_name": [["u_zero_dce/video/core", "100%"]],
+        "display": ["window23", "North", "Long", "4", "0%", "0", "0%", "NA", "0%", "83.33%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [216, 360, 317, 437],
+        "cell_name": [["u_zero_dce/video/core", "54%"], ["u_zero_dce/video/curve_pipeline", "22%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl", "22%"]],
+        "display": ["window24", "North", "Long", "4", "0.44%", "1.22", "25.52%", "0%", "26.52%", "100.00%", "83.33%", "9.99%", "NA"]
+    },
+    {
+        "region": [96, 606, 323, 833],
+        "cell_name": [["fram_buf/u_r/renderer", "56%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "43%"]],
+        "display": ["window25", "East", "Long", "6", "16.15%", "4.05", "78.01%", "31.19%", "50.66%", "87.50%", "90.62%", "28.24%", "NA"]
+    },
+    {
+        "region": [90, 720, 317, 947],
+        "cell_name": [["fram_buf/u_r/renderer", "50%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "49%"]],
+        "display": ["window26", "East", "Long", "6", "12.91%", "2.98", "58.05%", "26.65%", "42.77%", "92.86%", "92.86%", "17.58%", "NA"]
+    },
+    {
+        "region": [126, 492, 293, 875],
+        "cell_name": [["fram_buf/u_r/renderer", "45%"], ["u_zero_dce/video", "32%"], ["fram_buf/u_r", "6%"]],
+        "display": ["window27", "East", "Long", "6", "10.03%", "3.37", "70.07%", "19.62%", "44.56%", "76.92%", "92.31%", "32.00%", "NA"]
+    },
+    {
+        "region": [216, 672, 317, 779],
+        "cell_name": [["fram_buf/u_r/renderer", "63%"], ["u_zero_dce/video", "28%"], ["u_ddr3_test_h", "4%"]],
+        "display": ["window28", "West", "Global", "5", "29.64%", "4.80", "87.44%", "67.65%", "60.97%", "87.50%", "81.25%", "24.72%", "NA"]
+    },
+    {
+        "region": [240, 702, 353, 833],
+        "cell_name": [["fram_buf/u_r/renderer", "61%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "38%"]],
+        "display": ["window29", "West", "Global", "5", "25.00%", "4.47", "77.54%", "61.90%", "61.83%", "93.33%", "70.00%", "8.77%", "NA"]
+    },
+    {
+        "region": [246, 726, 275, 809],
+        "cell_name": [["fram_buf/u_r/renderer", "81%"], ["u_zero_dce/video", "12%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "6%"]],
+        "display": ["window30", "South", "Global", "4", "56.25%", "5.81", "95.67%", "100.00%", "66.11%", "100.00%", "NA", "9.86%", "NA"]
+    },
+    {
+        "region": [246, 708, 287, 779],
+        "cell_name": [["fram_buf/u_r/renderer", "81%"], ["u_zero_dce/video/coefficient_map", "12%"]],
+        "display": ["window31", "North", "Global", "4", "48.18%", "5.74", "96.14%", "95.45%", "66.02%", "100.00%", "75.00%", "16.82%", "NA"]
+    },
+    {
+        "region": [186, 720, 239, 779],
+        "cell_name": [["fram_buf/u_r/renderer", "75%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "24%"]],
+        "display": ["window32", "East", "Global", "4", "17.06%", "4.80", "97.22%", "27.78%", "46.03%", "NA", "100.00%", "39.29%", "NA"]
+    },
+    {
+        "region": [216, 726, 281, 797],
+        "cell_name": [["fram_buf/u_r/renderer", "77%"], ["u_zero_dce/video/curve_pipeline", "12%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "9%"]],
+        "display": ["window33", "East", "Global", "4", "44.60%", "5.37", "96.16%", "63.64%", "59.09%", "100.00%", "87.50%", "23.44%", "NA"]
+    }
+]

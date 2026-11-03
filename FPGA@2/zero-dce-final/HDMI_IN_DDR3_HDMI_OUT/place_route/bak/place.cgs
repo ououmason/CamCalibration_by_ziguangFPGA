@@ -1,0 +1,32 @@
+[
+    {
+        "phase": "place",
+        "table_title": "Place",
+        "title": ["Window", "Direction", "Type", "Level", "Congestion", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "name": ["Window", "Direction", "Type", "Level", "Congestion", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "version": 1,
+        "top_module_name": "HDMI_IN_DDR3_HDMI_OUT_top",
+        "arch": {"family": "Logos2", "device": "PG2L100H", "package": "FBG676", "speedgrade": "-6"},
+        "svn_version": "166183"
+    },
+    {
+        "region": [228, 630, 281, 683],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window1", "North", "Global", "4", "137.46%", "0%", "3.76", "78.01%", "1.39%", "49.65%", "100.00%", "100.00%", "35.42%", "NA"]
+    },
+    {
+        "region": [312, 1062, 329, 1127],
+        "cell_name": [["u_zero_dce/video/core", "100%"]],
+        "display": ["window2", "North", "Global", "3", "133.64%", "0%", "0", "0%", "0%", "0%", "100.00%", "NA", "0%", "NA"]
+    },
+    {
+        "region": [228, 672, 359, 809],
+        "cell_name": [["fram_buf/u_r/renderer", "66%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "33%"]],
+        "display": ["window3", "West", "Global", "5", "126.05%", "29.01%", "4.82", "82.32%", "67.17%", "64.82%", "100.00%", "80.00%", "10.16%", "NA"]
+    },
+    {
+        "region": [270, 720, 335, 785],
+        "cell_name": [["fram_buf/u_r/renderer", "93%"]],
+        "display": ["window4", "East", "Global", "4", "123.31%", "59.69%", "6.00", "91.88%", "92.50%", "74.45%", "100.00%", "0%", "0.94%", "NA"]
+    }
+]

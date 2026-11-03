@@ -1,0 +1,37 @@
+[
+    {
+        "phase": "place",
+        "table_title": "Place",
+        "title": ["Window", "Direction", "Type", "Level", "Congestion", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "name": ["Window", "Direction", "Type", "Level", "Congestion", "Combined_LUTs", "Avg LUT Input", "LUT", "LUTM", "FF", "DRM", "APM", "Carry", "HRM"],
+        "version": 1,
+        "top_module_name": "HDMI_IN_DDR3_HDMI_OUT_top",
+        "arch": {"family": "Logos2", "device": "PG2L100H", "package": "FBG676", "speedgrade": "-6"},
+        "svn_version": "166183"
+    },
+    {
+        "region": [156, 642, 359, 851],
+        "cell_name": [["HDMI_IN_DDR3_HDMI_OUT_top", "100%"]],
+        "display": ["window1", "North", "Global", "6", "120.44%", "14.42%", "3.86", "73.74%", "31.25%", "50.16%", "90.48%", "89.29%", "21.97%", "NA"]
+    },
+    {
+        "region": [186, 642, 323, 761],
+        "cell_name": [["fram_buf/u_r/renderer", "56%"], ["u_zero_dce/video", "30%"], ["u_ddr3_test_h/u_ips_ddrc_top/mcdq_ui_axi", "5%"]],
+        "display": ["window2", "West", "Global", "5", "166.16%", "17.79%", "4.60", "86.29%", "36.11%", "53.97%", "91.67%", "87.50%", "31.07%", "NA"]
+    },
+    {
+        "region": [162, 714, 335, 881],
+        "cell_name": [["fram_buf/u_r/renderer", "59%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "40%"]],
+        "display": ["window3", "West", "Global", "5", "137.77%", "18.80%", "3.75", "70.89%", "43.83%", "49.86%", "93.33%", "95.00%", "19.38%", "NA"]
+    },
+    {
+        "region": [198, 714, 311, 833],
+        "cell_name": [["fram_buf/u_r/renderer", "76%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "23%"]],
+        "display": ["window4", "East", "Global", "5", "153.42%", "34.02%", "5.12", "89.76%", "69.08%", "63.58%", "87.50%", "93.75%", "18.56%", "NA"]
+    },
+    {
+        "region": [222, 768, 317, 911],
+        "cell_name": [["fram_buf/u_r/renderer", "53%"], ["HDMI_IN_DDR3_HDMI_OUT_top", "46%"]],
+        "display": ["window5", "East", "Global", "5", "135.91%", "16.84%", "4.06", "76.35%", "52.78%", "60.24%", "90.00%", "95.00%", "20.14%", "NA"]
+    }
+]
